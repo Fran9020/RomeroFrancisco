@@ -34,8 +34,6 @@ class Home extends BaseController
 
     public function TerminosYUsos()
     {
-        echo view('header');
-        echo view('terminosYusos');
-        echo view('footer');
+        return view('terminosYusos',['titulo'=>'Terminos y Usos']);
     }
 }
