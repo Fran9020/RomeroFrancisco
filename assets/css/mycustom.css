@@ -1,0 +1,66 @@
+:root {
+  --azul-medianoche: #1B263B;
+  --purpura-magico: #6B5B95;
+  --rojo-carmesi: #D00000;
+  --gris-claro: #E0E0E0;
+  --blanco-puro: #FFFFFF;
+  --dorado-suave: #FFD60A;
+}
+
+/* Fondo principal */
+body {
+  background-color: var(--azul-medianoche);
+  color: var(--blanco-puro);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Encabezado */
+header {
+  background-color: var(--purpura-magico);
+}
+
+/* Tarjetas de juegos */
+.card {
+  background-color: var(--gris-claro);
+  border: 1px solid var(--purpura-magico);
+  border-radius: 8px;
+}
+.card-title, .card-text {
+  color: var(--azul-medianoche);
+}
+
+/* Botones */
+.btn-primary {
+  background-color: var(--rojo-carmesi);
+  border-color: var(--rojo-carmesi);
+}
+.btn-primary:hover {
+  background-color: darken(var(--rojo-carmesi), 10%);
+  border-color: darken(var(--rojo-carmesi), 10%);
+}
+
+/* Sección Tendencia de la semana */
+.trend-section {
+  background-color: var(--purpura-magico);
+  color: var(--dorado-suave);
+  padding: 10px;
+}
+
+/* Pie de página */
+footer {
+  background-color: var(--gris-claro);
+  color: var(--azul-medianoche);
+}
+footer a {
+  color: var(--azul-medianoche);
+}
+footer a:hover {
+  color: var(--rojo-carmesi);
+}
+
+/* Títulos */
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+
