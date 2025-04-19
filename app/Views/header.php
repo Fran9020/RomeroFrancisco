@@ -15,7 +15,7 @@
                 <a class="navbar-brand me-3" href="<?php echo base_url(); ?>">
                     <img src="https://via.placeholder.com/100x40?text=Logo" alt="Logo">
                 </a>
-                <form class="d-flex w-75"> <!-- Cambié max-width por w-75 -->
+                <form class="d-flex w-75">
                     <input class="form-control me-2" type="search" placeholder="Buscar" style="width: 100%;">
                     <button class="btn btn-outline-primary" type="submit">Buscar</button>
                 </form>
@@ -35,12 +35,30 @@
                         <a class="nav-link" href="<?php echo base_url(); ?>/QuienesSomos">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Servicios</a><!-- Mantener si no hay página -->
+                        <a class="nav-link" href="#">Servicios</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Usuario</a><!-- Mantener si no hay página -->
+                    <!-- Dropdown para "Usuario" -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="usuarioDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Usuario
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="usuarioDropdown">
+                            <li><a class="dropdown-item" href="#">Lista de Deseos</a></li>
+                            <li><a class="dropdown-item" href="#">Historial de Compras</a></li>
+                            <li><a class="dropdown-item" href="#">Cupones</a></li>
+                            <li><a class="dropdown-item" href="#">Billetera</a></li>
+                            <li><a class="dropdown-item" href="#">Canjear Código</a></li>
+                            <li><a class="dropdown-item" href="#">Cerrar Sesión</a></li>
+                            <li><a class="dropdown-item" href="#">Cuenta</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
+
+    
+</body>
+</html>
+

@@ -1,10 +1,10 @@
 :root {
   --azul-medianoche: #1B263B;
-  --purpura-magico: #6B5B95;
+  --purpura-magico: #6B5B95; /* Fucsia, mantenido para bordes si es necesario */
   --rojo-carmesi: #D00000;
   --gris-claro: #E0E0E0;
   --blanco-puro: #FFFFFF;
-  --dorado-suave: #FFD60A;
+  --dorado-suave: #000000; /* Amarillo cambiado por negro */
 }
 
 /* Fondo principal */
@@ -12,6 +12,14 @@ body {
   background-color: var(--azul-medianoche);
   color: var(--blanco-puro);
   font-family: 'Poppins', sans-serif;
+}
+
+/* Cuadro del contenido */
+#content-box {
+  background-color: var(--azul-medianoche); /* Fondo azul del contenedor */
+  color: var(--dorado-suave); /* Texto negro */
+  border: 1px solid var(--gris-claro);
+  border-radius: 8px;
 }
 
 /* Encabezado */

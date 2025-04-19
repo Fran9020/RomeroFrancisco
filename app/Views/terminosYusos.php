@@ -1,9 +1,10 @@
 <?= $this->extend("layout") ?>
 
 <?= $this->section("contenido") ?>
-<section class="container my-5">
+<section class="container-fluid" style="background-color: #1B263B; margin: 0; padding: 50px 0;"> <!-- Fondo azul marino -->
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <!-- Cuadro blanco centrado -->
+        <div class="col-md-8 p-4 border rounded" style="background-color: #FFFFFF; color: #000000;"> <!-- Cuadro blanco -->
             <h2 class="display-5 text-center mb-4">Términos y Usos</h2>
 
             <!-- Aviso Legal de Términos y Usos -->
@@ -49,6 +50,7 @@
     </div>
 </section>
 <?= $this->endSection() ?>
+
 
 
 

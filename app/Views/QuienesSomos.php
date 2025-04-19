@@ -1,8 +1,9 @@
-<section class="container my-5">
+<section class="container-fluid" style="background-color: #1B263B; margin: 0; padding: 50px 0;"> <!-- Fondo azul marino -->
     <div class="row justify-content-center">
-        <div class="col-md-8 text-center">
+        <!-- Cuadro blanco centrado -->
+        <div class="col-md-8 p-4 border rounded" style="background-color: #FFFFFF; color: #000000;"> <!-- Cuadro blanco -->
             <!-- Título central -->
-            <h2 class="display-5 mb-4">Nuestro Objetivo como sistema de compra y venta de productos</h2>
+            <h2 class="display-5 text-center mb-4">Nuestro Objetivo como sistema de compra y venta de productos</h2>
             <!-- Descripción principal -->
             <p class="lead">
                 En nuestro sistema, buscamos simplificar el proceso de compra y venta, conectando a los usuarios con productos de calidad y ofreciéndoles una experiencia transparente y confiable. 
@@ -11,10 +12,10 @@
         </div>
     </div>
 
-    <!-- Espacios compactos con espacio entre ellos -->
-    <div class="row justify-content-center mt-5 g-3"> <!-- Agregamos g-3 para separación -->
+    <!-- Espacios compactos con separación -->
+    <div class="row justify-content-center mt-5 g-3">
         <!-- Espacio 1 -->
-        <div class="col-md-5 d-flex align-items-center" style="height: 250px; border: 1px solid #ddd; border-radius: 10px; overflow: hidden;">
+        <div class="col-md-5 d-flex align-items-center" style="height: 250px; border: 1px solid #ddd; border-radius: 10px; overflow: hidden; background-color: #FFFFFF; color: #000000;"> <!-- Cuadro blanco -->
             <img src="https://via.placeholder.com/150x250?text=Imagen+1" class="img-fluid me-3" style="height: 100%; object-fit: cover;" alt="Imagen 1">
             <div>
                 <h5 class="mb-2">Descripción del Espacio 1</h5>
@@ -23,7 +24,7 @@
         </div>
 
         <!-- Espacio 2 -->
-        <div class="col-md-5 d-flex align-items-center" style="height: 250px; border: 1px solid #ddd; border-radius: 10px; overflow: hidden;">
+        <div class="col-md-5 d-flex align-items-center" style="height: 250px; border: 1px solid #ddd; border-radius: 10px; overflow: hidden; background-color: #FFFFFF; color: #000000;"> <!-- Cuadro blanco -->
             <img src="https://via.placeholder.com/150x250?text=Imagen+2" class="img-fluid me-3" style="height: 100%; object-fit: cover;" alt="Imagen 2">
             <div>
                 <h5 class="mb-2">Descripción del Espacio 2</h5>
@@ -32,6 +33,9 @@
         </div>
     </div>
 </section>
+
+<!-- Scripts de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
         
 
 
