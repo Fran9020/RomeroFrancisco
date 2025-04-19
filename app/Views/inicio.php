@@ -81,18 +81,18 @@
                         <div class="col-md-4 d-flex flex-column align-items-center justify-content-center">
                             <div class="row mb-2">
                                 <div class="col-6">
-                                    <img src="http://localhost/RomeroFrancisco/assets/img/imagen1.jpg" class="img-thumbnail" style="max-height: 120px; max-width: 120px; object-fit: contain;" alt="Miniatura 1">
+                                    <img src="http://localhost/RomeroFrancisco/assets/img/imagen1.jpg" class="img-thumbnail clickable-thumbnail" data-bs-target="#imageCarousel" data-bs-slide-to="0" style="max-height: 120px; max-width: 120px; object-fit: contain;" alt="Miniatura 1">
                                 </div>
                                 <div class="col-6">
-                                    <img src="http://localhost/RomeroFrancisco/assets/img/imagen2.jpg" class="img-thumbnail" style="max-height: 120px; max-width: 120px; object-fit: contain;" alt="Miniatura 2">
+                                    <img src="http://localhost/RomeroFrancisco/assets/img/imagen2.jpg" class="img-thumbnail clickable-thumbnail" data-bs-target="#imageCarousel" data-bs-slide-to="1" style="max-height: 120px; max-width: 120px; object-fit: contain;" alt="Miniatura 2">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-6">
-                                    <img src="http://localhost/RomeroFrancisco/assets/img/imagen3.jpg" class="img-thumbnail" style="max-height: 120px; max-width: 120px; object-fit: contain;" alt="Miniatura 3">
+                                    <img src="http://localhost/RomeroFrancisco/assets/img/imagen3.jpg" class="img-thumbnail clickable-thumbnail" data-bs-target="#imageCarousel" data-bs-slide-to="2" style="max-height: 120px; max-width: 120px; object-fit: contain;" alt="Miniatura 3">
                                 </div>
                                 <div class="col-6">
-                                    <img src="http://localhost/RomeroFrancisco/assets/img/imagen4.jpg" class="img-thumbnail" style="max-height: 120px; max-width: 120px; object-fit: contain;" alt="Miniatura 4">
+                                    <img src="http://localhost/RomeroFrancisco/assets/img/imagen4.jpg" class="img-thumbnail clickable-thumbnail" data-bs-target="#imageCarousel" data-bs-slide-to="3" style="max-height: 120px; max-width: 120px; object-fit: contain;" alt="Miniatura 4">
                                 </div>
                             </div>
                         </div>
@@ -115,8 +115,6 @@
 
 <!-- Scripts de Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-
 
 
 
