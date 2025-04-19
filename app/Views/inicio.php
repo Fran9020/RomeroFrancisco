@@ -1,3 +1,8 @@
+<!-- Cargar el CSS de Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<!-- Cargar tu CSS personalizado (si lo tenés) -->
+<link href="<?= base_url('assets/css/mycustom.css'); ?>" rel="stylesheet">
+
 <section class="title-section" style="position: relative; height: 300px; display: flex; align-items: center; justify-content: center; overflow: hidden;">
     <!-- Video de fondo -->
     <video autoplay muted loop style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1;">

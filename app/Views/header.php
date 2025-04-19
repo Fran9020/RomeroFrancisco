@@ -8,7 +8,7 @@
 </head>
 <body>
     <!-- Encabezado -->
-    <header class="py-3 bg-light">
+    <header class="py-2">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
                 <!-- Logo -->
