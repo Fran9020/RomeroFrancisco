@@ -1,74 +1,43 @@
-:root {
-  --azul-medianoche: #1B263B;
-  --purpura-magico: #6B5B95; /* Fucsia, mantenido para bordes si es necesario */
-  --rojo-carmesi: #D00000;
-  --gris-claro: #E0E0E0;
-  --blanco-puro: #FFFFFF;
-  --dorado-suave: #000000; /* Amarillo cambiado por negro */
+/* Fondo azul para la sección principal y el encabezado */
+.main-section {
+  background-color: #1B263B;
+  margin: 0;
+  padding: 50px 0;
 }
 
-/* Fondo principal */
-body {
-  background-color: var(--azul-medianoche);
-  color: var(--blanco-puro);
-  font-family: 'Poppins', sans-serif;
+.title-section {
+  position: relative;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #4B2E83; /* Morado oscuro para el encabezado */
 }
 
-/* Cuadro del contenido */
+/* Aseguramos que las letras dentro del encabezado sean blancas */
+.title-section img {
+  position: relative;
+  z-index: 2;
+  max-height: 140px;
+  object-fit: contain;
+  text-align: center;
+}
+
+/* Color gris medio para el recuadro de contenido */
 #content-box {
-  background-color: var(--azul-medianoche); /* Fondo azul del contenedor */
-  color: var(--dorado-suave); /* Texto negro */
-  border: 1px solid var(--gris-claro);
-  border-radius: 8px;
+  background-color: #D3D3D3; /* Gris claro-medio */
+  color: #000000; /* Letras negras para buena legibilidad */
 }
 
-/* Encabezado */
-header {
-  background-color: var(--purpura-magico);
+/* Aseguramos que los textos dentro del recuadro sean legibles */
+#content-box h3,
+#content-box h4,
+#content-box h5,
+#content-box h6,
+#content-box p {
+  color: #000000; /* Letras negras */
 }
 
-/* Tarjetas de juegos */
-.card {
-  background-color: var(--gris-claro);
-  border: 1px solid var(--purpura-magico);
-  border-radius: 8px;
-}
-.card-title, .card-text {
-  color: var(--azul-medianoche);
-}
-
-/* Botones */
-.btn-primary {
-  background-color: var(--rojo-carmesi);
-  border-color: var(--rojo-carmesi);
-}
-.btn-primary:hover {
-  background-color: darken(var(--rojo-carmesi), 10%);
-  border-color: darken(var(--rojo-carmesi), 10%);
-}
-
-/* Sección Tendencia de la semana */
-.trend-section {
-  background-color: var(--purpura-magico);
-  color: var(--dorado-suave);
-  padding: 10px;
-}
-
-/* Pie de página */
-footer {
-  background-color: var(--gris-claro);
-  color: var(--azul-medianoche);
-}
-footer a {
-  color: var(--azul-medianoche);
-}
-footer a:hover {
-  color: var(--rojo-carmesi);
-}
-
-/* Títulos */
-h1, h2, h3, h4 {
-  font-weight: 700;
-}
 
 
