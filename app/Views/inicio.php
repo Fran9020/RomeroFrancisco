@@ -4,9 +4,31 @@
         <source src="http://localhost/RomeroFrancisco/assets/img/wild.mp4" type="video/mp4">
         Tu navegador no soporta la reproducción de videos.
     </video>
-    <!-- Nombre de la página -->
-    <h1 class="display-3 text-white" style="position: relative; z-index: 2; text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);">TECNALIX</h1>
+    <!-- Imagen centrada -->
+    <img src="http://localhost/RomeroFrancisco/assets/img/TituloFondo.png" alt="Logo Game-Box" style="position: relative; z-index: 2; max-height: 140px; object-fit: contain; text-align: center;">
 </section>
+
+
+<!-- Script para manejar varios videos -->
+<script>
+    // Lista de videos
+    const videos = [
+        "http://localhost/RomeroFrancisco/assets/img/wild.mp4", // Primer video
+        "http://localhost/RomeroFrancisco/assets/img/Fortnite.mp4", // Segundo video
+        "http://localhost/RomeroFrancisco/assets/img/elden.mp4" // Tercer video
+    ];
+
+    // Seleccionar el elemento video
+    const videoElement = document.getElementById("videoBackground");
+    let currentIndex = 0;
+
+    // Cambiar al siguiente video cuando termine
+    videoElement.addEventListener("ended", () => {
+        currentIndex = (currentIndex + 1) % videos.length; // Mover al siguiente video en la lista
+        videoElement.src = videos[currentIndex];
+        videoElement.play(); // Reproducir el siguiente video
+    });
+</script>
 
 <!-- Contenedor principal con fondo azul -->
 <section class="container-fluid" style="background-color: #1B263B; margin: 0; padding: 50px 0;"> <!-- Sección completa azul -->
@@ -32,8 +54,8 @@
                                                 <img src="http://localhost/RomeroFrancisco/assets/img/imagen1.jpg" class="d-block img-fluid" style="max-height: 300px; object-fit: contain;" alt="Imagen 1">
                                                 <div class="ms-3 text-start">
                                                     <h4>Dark Souls</h4>
-                                                    <h5 class="text-muted">Subtítulo 1</h5>
-                                                    <p>Esta es una breve descripción sobre la imagen mostrada en el carrusel.</p>
+                                                    <h5 class="text-muted">$29.99</h5>
+                                                    <p>Dark Souls es una serie de juegos de rol de acción creada por Hidetaka Miyazaki de FromSoftware y publicada por Bandai Namco Entertainment.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -42,8 +64,10 @@
                                                 <img src="http://localhost/RomeroFrancisco/assets/img/imagen2.jpg" class="d-block img-fluid" style="max-height: 300px; object-fit: contain;" alt="Imagen 2">
                                                 <div class="ms-3 text-start">
                                                     <h4>The Legend Of Zelda</h4>
-                                                    <h5 class="text-muted">Subtítulo 2</h5>
-                                                    <p>Breve descripción que explica lo que aparece en esta imagen del carrusel.</p>
+                                                    <h5 class="text-muted">$24.99</h5>
+                                                    <p>videojuego de acción-aventura de 2017 de la serie The Legend of Zelda, desarrollado por la 
+                                                        filial Nintendo EPD en colaboración con Monolith Soft y publicado por Nintendo para las 
+                                                        consolas Wii U y Nintendo Switch</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -51,9 +75,9 @@
                                             <div class="d-flex align-items-center">
                                                 <img src="http://localhost/RomeroFrancisco/assets/img/imagen3.jpg" class="d-block img-fluid" style="max-height: 300px; object-fit: contain;" alt="Imagen 3">
                                                 <div class="ms-3 text-start">
-                                                    <h4>Título 3</h4>
-                                                    <h5 class="text-muted">Minecraft</h5>
-                                                    <p>Texto breve que acompaña y describe el contenido de esta imagen.</p>
+                                                    <h4>Minecraft</h4>
+                                                    <h5 class="text-muted">$21.99</h5>
+                                                    <p>Minecraft es un videojuego de mundo abierto que permite a los jugadores explorar, construir y sobrevivir en un entorno generado de manera procedimental.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -61,9 +85,10 @@
                                             <div class="d-flex align-items-center">
                                                 <img src="http://localhost/RomeroFrancisco/assets/img/imagen4.jpg" class="d-block img-fluid" style="max-height: 300px; object-fit: contain;" alt="Imagen 4">
                                                 <div class="ms-3 text-start">
-                                                    <h4>Crash Bandicoot</h4>
-                                                    <h5 class="text-muted">Subtítulo 4</h5>
-                                                    <p>Descripción breve que acompaña a esta imagen en el carrusel.</p>
+                                                    <h4>Crash Bandicoot 4: It's About Time</h4>
+                                                    <h5 class="text-muted">$23.99</h5>
+                                                    <p>videojuego de plataformas desarrollado por Toys for Bob y publicado por Activision en 2020. Se lanzó originalmente para PlayStation 4 y 
+                                                        Xbox One, con lanzamientos para Nintendo Switch, PlayStation 5, Xbox Series X|S y Windows en 2021.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -108,7 +133,7 @@
         <div class="col-md-4 text-center">
             <img src="http://localhost/RomeroFrancisco/assets/img/imagen1.jpg" class="img-fluid mb-2" style="max-height: 150px; width: auto; object-fit: cover;" alt="Oferta 1">
             <h6 class="mt-1" style="font-size: 14px;">Título Oferta 1</h6> <!-- Título más pequeño -->
-            <p class="text-muted" style="font-size: 12px;">Subtítulo Oferta 1</p> <!-- Subtítulo más pequeño -->
+            <p class="text-muted" style="font-size: 12px;">$29.99</p> <!-- Subtítulo más pequeño -->
         </div>
         <div class="col-md-4 text-center">
             <img src="http://localhost/RomeroFrancisco/assets/img/spidermnan.jpg" class="img-fluid mb-2" style="max-height: 150px; width: auto; object-fit: cover;" alt="Oferta 2">

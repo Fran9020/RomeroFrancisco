@@ -13,11 +13,11 @@
             <div class="d-flex justify-content-center align-items-center">
                 <!-- Logo al lado de la barra de búsqueda -->
                 <a class="navbar-brand me-3" href="<?php echo base_url(); ?>">
-                    <img src="https://via.placeholder.com/100x40?text=Logo" alt="Logo">
+                <img src="http://localhost/RomeroFrancisco/assets/img/Logo.png" alt="Logo" style="width: 50px; height: auto;">
                 </a>
                 <form class="d-flex w-75">
                     <input class="form-control me-2" type="search" placeholder="Buscar" style="width: 100%;">
-                    <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                    <button class="btn btn-outline-primary" type="submit"><i class="bi bi-search"></i></button>
                 </form>
             </div>
         </div>
@@ -57,7 +57,7 @@
         </div>
     </nav>
 
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"> //CORREGIR ESTA PARTE
     
 </body>
 </html>

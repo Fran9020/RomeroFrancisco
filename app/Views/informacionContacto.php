@@ -78,13 +78,13 @@
                     <div class="card-body">
                         <!-- Botón para desplegar el formulario -->
                         <div class="d-flex justify-content-center">
-                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#consultaForm" aria-expanded="false" aria-controls="consultaForm" style="width: 70%;">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#consultaForm2" aria-expanded="false" aria-controls="consultaForm2" style="width: 70%;">
                                 Enviar consulta
                             </button>
                         </div>
 
                         <!-- Formulario desplegable -->
-                        <div class="collapse mt-4" id="consultaForm">
+                        <div class="collapse mt-4" id="consultaForm2">
                             <form style="width: 70%; margin: 0 auto;"> <!-- Ajuste de ancho y centrado -->
                                 <!-- Nombre de Usuario -->
                                 <div class="mb-3">
