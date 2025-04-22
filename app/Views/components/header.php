@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tecnalix</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
+
     <!-- Encabezado ajustado -->
-    <header class="py-2 bg-light border-bottom">
+    <header class="py-2 border-bottom">
         <div class="container">
             <div class="d-flex justify-content-center align-items-center">
                 <!-- Logo al lado de la barra de búsqueda -->
@@ -19,6 +11,7 @@
                     <input class="form-control me-2" type="search" placeholder="Buscar" style="width: 100%;">
                     <button class="btn btn-outline-primary" type="submit"><i class="bi bi-search"></i></button>
                 </form>
+                
             </div>
         </div>
     </header>
@@ -56,9 +49,5 @@
             </div>
         </div>
     </nav>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"> //CORREGIR ESTA PARTE
-    
-</body>
-</html>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 

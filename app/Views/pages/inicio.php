@@ -31,7 +31,7 @@
 </script>
 
 <!-- Contenedor principal con fondo azul -->
-<section class="container-fluid" style="background-color: #1B263B; margin: 0; padding: 50px 0;"> <!-- Sección completa azul -->
+<section class="container-fluid main-section">
     <div class="container">
         <div class="row justify-content-center">
             <!-- Cuadro blanco centrado -->

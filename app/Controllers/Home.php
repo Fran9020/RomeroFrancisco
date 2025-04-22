@@ -6,34 +6,43 @@ class Home extends BaseController
 {
     public function index()
     {
-        echo view('header');
-        echo view('inicio');
-        echo view('footer');
+        return view('templates/layout', [
+            'title' => 'Tecnalix',
+            'content' => view('pages/inicio')
+        ]);
     }
 
     public function QuienesSomos()
     {
-        echo view('header');
-        echo view('QuienesSomos');
-        echo view('footer');
+        return view('templates/layout', [
+            'title' => 'Quienes Somos',
+            'content' => view('pages/QuienesSomos')
+        ]);
     }
 
     public function Comercializacion()
     {
-        echo view('header');
-        echo view('comercializacion');
-        echo view('footer');
+        return view('templates/layout', [
+            'title' => 'Comercializacion',
+            'content' => view('pages/comercializacion')
+        ]);
     }
 
     public function InformacionDeContacto()
     {
-        echo view('header');
-        echo view('informacionContacto');
-        echo view('footer');
+        return view('templates/layout', [
+            'title' => 'Contacto',
+            'content' => view('pages/informacionContacto')
+        ]);
     }
 
     public function TerminosYUsos()
     {
-        return view('terminosYusos',['titulo'=>'Terminos y Usos']);
+        return view('templates/layout', [
+            'title' => 'Terminos y Usos',
+            'content' => view('pages/terminosYUsos')
+        ]);
     }
 }
+
+

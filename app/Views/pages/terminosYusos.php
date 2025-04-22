@@ -1,7 +1,7 @@
-<?= $this->extend("layout") ?>
+
 
 <?= $this->section("contenido") ?>
-<section class="container-fluid" style="background-color: #1B263B; margin: 0; padding: 50px 0;"> <!-- Fondo azul marino -->
+<section class="container-fluid main-section">
     <div class="row justify-content-center">
         <!-- Cuadro blanco centrado -->
         <div class="col-md-8 p-4 border rounded" style="background-color: #FFFFFF; color: #000000;"> <!-- Cuadro blanco -->
@@ -49,7 +49,7 @@
         </div>
     </div>
 </section>
-<?= $this->endSection() ?>
+
 
 
 

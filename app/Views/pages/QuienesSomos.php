@@ -1,16 +1,17 @@
-<section class="container-fluid" style="background-color: #1B263B; margin: 0; padding: 50px 0;"> <!-- Fondo azul marino -->
-    <div class="row justify-content-center">
-        <!-- Cuadro blanco centrado -->
-        <div class="col-md-8 p-4 border rounded" style="background-color: #FFFFFF; color: #000000;"> <!-- Cuadro blanco -->
-            <!-- Título central -->
-            <h2 class="display-5 text-center mb-4">Nuestro Objetivo como sistema de compra y venta de productos</h2>
-            <!-- Descripción principal -->
-            <p class="lead">
-                En nuestro sistema, buscamos simplificar el proceso de compra y venta, conectando a los usuarios con productos de calidad y ofreciéndoles una experiencia transparente y confiable. 
-                Nuestro objetivo principal es crear un espacio donde cada transacción sea una oportunidad para generar satisfacción y confianza entre compradores y vendedores.
-            </p>
+<section class="container-fluid main-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- Cuadro blanco centrado -->
+            <div class="col-md-8 p-4 border rounded" style="background-color: #FFFFFF; color: #000000;">
+                <!-- Título central -->
+                <h2 class="display-5 text-center mb-4">Nuestro Objetivo como sistema de compra y venta de productos</h2>
+                <!-- Descripción principal -->
+                <p class="lead">
+                    En nuestro sistema, buscamos simplificar el proceso de compra y venta, conectando a los usuarios con productos de calidad y ofreciéndoles una experiencia transparente y confiable. 
+                    Nuestro objetivo principal es crear un espacio donde cada transacción sea una oportunidad para generar satisfacción y confianza entre compradores y vendedores.
+                </p>
+            </div>
         </div>
-    </div>
 
     <!-- Espacios compactos con separación -->
     <div class="row justify-content-center mt-5 g-3">

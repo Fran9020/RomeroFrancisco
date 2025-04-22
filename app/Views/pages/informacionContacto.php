@@ -1,5 +1,4 @@
-<section class="container-fluid" style="background-color: #1B263B; margin: 0; padding: 50px 0;"> <!-- Fondo azul marino -->
-    <div class="container">
+<section class="container-fluid main-section">
         <div class="row justify-content-center">
             <!-- Cuadro blanco centrado -->
             <div class="col-md-8 p-4 border rounded bg-light text-dark">
