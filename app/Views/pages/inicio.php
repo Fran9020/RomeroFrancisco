@@ -1,13 +1,12 @@
-<section class="title-section" style="position: relative; height: 300px; display: flex; align-items: center; justify-content: center; overflow: hidden; background-color: #1B263B;"> <!-- Fondo azul aplicado -->
+<section class="title-section">
     <!-- Video de fondo -->
-    <video autoplay muted loop style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
+    <video autoplay muted loop class="background-video">
         <source src="http://localhost/RomeroFrancisco/assets/img/wild.mp4" type="video/mp4">
         Tu navegador no soporta la reproducción de videos.
     </video>
     <!-- Imagen centrada -->
-    <img src="http://localhost/RomeroFrancisco/assets/img/TituloFondo.png" alt="Logo Game-Box" style="position: relative; z-index: 2; max-height: 140px; object-fit: contain; text-align: center;">
+    <img src="http://localhost/RomeroFrancisco/assets/img/TituloFondo.png" alt="Logo Game-Box" class="title-image">
 </section>
-
 
 <!-- Script para manejar varios videos -->
 <script>
@@ -35,7 +34,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <!-- Cuadro blanco centrado -->
-            <div class="col-md-10 p-4 border rounded bg-light" id="content-box">
+            <div class="col-md-10 p-4 border rounded" id="content-box">
                 <!-- Subtítulos -->
                 <ul class="list-unstyled mb-4">
                     <li class="mb-3">
@@ -51,7 +50,7 @@
                                         <!-- Elementos individuales del carrusel con descripciones -->
                                         <div class="carousel-item active">
                                             <div class="d-flex align-items-center">
-                                                <img src="http://localhost/RomeroFrancisco/assets/img/imagen1.jpg" class="d-block img-fluid" style="max-height: 300px; object-fit: contain;" alt="Imagen 1">
+                                                <img src="http://localhost/RomeroFrancisco/assets/img/imagen1.jpg" class="d-block img-fluid carousel-image" alt="Imagen 1">
                                                 <div class="ms-3 text-start">
                                                     <h4>Dark Souls</h4>
                                                     <h5 class="text-muted">$29.99</h5>
@@ -61,7 +60,7 @@
                                         </div>
                                         <div class="carousel-item">
                                             <div class="d-flex align-items-center">
-                                                <img src="http://localhost/RomeroFrancisco/assets/img/imagen2.jpg" class="d-block img-fluid" style="max-height: 300px; object-fit: contain;" alt="Imagen 2">
+                                                <img src="http://localhost/RomeroFrancisco/assets/img/imagen2.jpg" class="d-block img-fluid carousel-image" alt="Imagen 2">
                                                 <div class="ms-3 text-start">
                                                     <h4>The Legend Of Zelda</h4>
                                                     <h5 class="text-muted">$24.99</h5>
@@ -73,7 +72,7 @@
                                         </div>
                                         <div class="carousel-item">
                                             <div class="d-flex align-items-center">
-                                                <img src="http://localhost/RomeroFrancisco/assets/img/imagen3.jpg" class="d-block img-fluid" style="max-height: 300px; object-fit: contain;" alt="Imagen 3">
+                                                <img src="http://localhost/RomeroFrancisco/assets/img/imagen3.jpg" class="d-block img-fluid carousel-image" alt="Imagen 3">
                                                 <div class="ms-3 text-start">
                                                     <h4>Minecraft</h4>
                                                     <h5 class="text-muted">$21.99</h5>
@@ -83,7 +82,7 @@
                                         </div>
                                         <div class="carousel-item">
                                             <div class="d-flex align-items-center">
-                                                <img src="http://localhost/RomeroFrancisco/assets/img/imagen4.jpg" class="d-block img-fluid" style="max-height: 300px; object-fit: contain;" alt="Imagen 4">
+                                                <img src="http://localhost/RomeroFrancisco/assets/img/imagen4.jpg" class="d-block img-fluid carousel-image" alt="Imagen 4">
                                                 <div class="ms-3 text-start">
                                                     <h4>Crash Bandicoot 4: It's About Time</h4>
                                                     <h5 class="text-muted">$23.99</h5>
@@ -108,18 +107,18 @@
                             <div class="col-md-4 d-flex flex-column align-items-center justify-content-center">
                                 <div class="row mb-2">
                                     <div class="col-6">
-                                        <img src="http://localhost/RomeroFrancisco/assets/img/imagen1.jpg" class="img-thumbnail clickable-thumbnail" data-bs-target="#imageCarousel" data-bs-slide-to="0" style="max-height: 120px; max-width: 120px; object-fit: contain;" alt="Miniatura 1">
+                                        <img src="http://localhost/RomeroFrancisco/assets/img/imagen1.jpg" class="img-thumbnail clickable-thumbnail thumbnail-image" data-bs-target="#imageCarousel" data-bs-slide-to="0" alt="Miniatura 1">
                                     </div>
                                     <div class="col-6">
-                                        <img src="http://localhost/RomeroFrancisco/assets/img/imagen2.jpg" class="img-thumbnail clickable-thumbnail" data-bs-target="#imageCarousel" data-bs-slide-to="1" style="max-height: 120px; max-width: 120px; object-fit: contain;" alt="Miniatura 2">
+                                        <img src="http://localhost/RomeroFrancisco/assets/img/imagen2.jpg" class="img-thumbnail clickable-thumbnail thumbnail-image" data-bs-target="#imageCarousel" data-bs-slide-to="1" alt="Miniatura 2">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-6">
-                                        <img src="http://localhost/RomeroFrancisco/assets/img/imagen3.jpg" class="img-thumbnail clickable-thumbnail" data-bs-target="#imageCarousel" data-bs-slide-to="2" style="max-height: 120px; max-width: 120px; object-fit: contain;" alt="Miniatura 3">
+                                        <img src="http://localhost/RomeroFrancisco/assets/img/imagen3.jpg" class="img-thumbnail clickable-thumbnail thumbnail-image" data-bs-target="#imageCarousel" data-bs-slide-to="2" alt="Miniatura 3">
                                     </div>
                                     <div class="col-6">
-                                        <img src="http://localhost/RomeroFrancisco/assets/img/imagen4.jpg" class="img-thumbnail clickable-thumbnail" data-bs-target="#imageCarousel" data-bs-slide-to="3" style="max-height: 120px; max-width: 120px; object-fit: contain;" alt="Miniatura 4">
+                                        <img src="http://localhost/RomeroFrancisco/assets/img/imagen4.jpg" class="img-thumbnail clickable-thumbnail thumbnail-image" data-bs-target="#imageCarousel" data-bs-slide-to="3" alt="Miniatura 4">
                                     </div>
                                 </div>
                             </div>
@@ -127,70 +126,70 @@
                     </li>
                     <!-- Continuación del contenido -->
                     <li class="mb-3">
-    <h3 class="h5">Ofertas</h3>
-    <!-- Fila de imágenes con descripciones -->
-    <div class="row">
-        <div class="col-md-4 text-center">
-            <img src="http://localhost/RomeroFrancisco/assets/img/imagen1.jpg" class="img-fluid mb-2" style="max-height: 150px; width: auto; object-fit: cover;" alt="Oferta 1">
-            <h6 class="mt-1" style="font-size: 14px;">Título Oferta 1</h6> <!-- Título más pequeño -->
-            <p class="text-muted" style="font-size: 12px;">$29.99</p> <!-- Subtítulo más pequeño -->
-        </div>
-        <div class="col-md-4 text-center">
-            <img src="http://localhost/RomeroFrancisco/assets/img/spidermnan.jpg" class="img-fluid mb-2" style="max-height: 150px; width: auto; object-fit: cover;" alt="Oferta 2">
-            <h6 class="mt-1" style="font-size: 14px;">Título Oferta 2</h6> <!-- Título más pequeño -->
-            <p class="text-muted" style="font-size: 12px;">Subtítulo Oferta 2</p> <!-- Subtítulo más pequeño -->
-        </div>
-        <div class="col-md-4 text-center">
-            <img src="http://localhost/RomeroFrancisco/assets/img/No-More-Heroes.jpg" class="img-fluid mb-2" style="max-height: 150px; width: auto; object-fit: cover;" alt="Oferta 3">
-            <h6 class="mt-1" style="font-size: 14px;">Título Oferta 3</h6> <!-- Título más pequeño -->
-            <p class="text-muted" style="font-size: 12px;">Subtítulo Oferta 3</p> <!-- Subtítulo más pequeño -->
-        </div>
-    </div>
-</li>
+                        <h3 class="h5">Ofertas</h3>
+                        <!-- Fila de imágenes con descripciones -->
+                        <div class="row">
+                            <div class="col-md-4 text-center">
+                                <img src="http://localhost/RomeroFrancisco/assets/img/imagen1.jpg" class="img-fluid mb-2 section-image" alt="Oferta 1">
+                                <h6 class="mt-1 section-title">Título Oferta 1</h6>
+                                <p class="text-muted section-price">$29.99</p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <img src="http://localhost/RomeroFrancisco/assets/img/spidermnan.jpg" class="img-fluid mb-2 section-image" alt="Oferta 2">
+                                <h6 class="mt-1 section-title">Título Oferta 2</h6>
+                                <p class="text-muted section-price">Subtítulo Oferta 2</p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <img src="http://localhost/RomeroFrancisco/assets/img/No-More-Heroes.jpg" class="img-fluid mb-2 section-image" alt="Oferta 3">
+                                <h6 class="mt-1 section-title">Título Oferta 3</h6>
+                                <p class="text-muted section-price">Subtítulo Oferta 3</p>
+                            </div>
+                        </div>
+                    </li>
 
-<li class="mb-3">
-    <h3 class="h5">Mejores calificado</h3>
-    <!-- Fila de imágenes con descripciones -->
-    <div class="row">
-        <div class="col-md-4 text-center">
-            <img src="http://localhost/RomeroFrancisco/assets/img/monsterhunter.jpg" class="img-fluid mb-2" style="max-height: 150px; width: auto; object-fit: cover;" alt="Mejor Calificado 1">
-            <h6 class="mt-1" style="font-size: 14px;">Título Mejor 1</h6> <!-- Título más pequeño -->
-            <p class="text-muted" style="font-size: 12px;">$29.99</p> <!-- Precio -->
-        </div>
-        <div class="col-md-4 text-center">
-            <img src="http://localhost/RomeroFrancisco/assets/img/mario.jpg" class="img-fluid mb-2" style="max-height: 150px; width: auto; object-fit: cover;" alt="Mejor Calificado 2">
-            <h6 class="mt-1" style="font-size: 14px;">Título Mejor 2</h6> <!-- Título más pequeño -->
-            <p class="text-muted" style="font-size: 12px;">$24.99</p> <!-- Precio -->
-        </div>
-        <div class="col-md-4 text-center">
-            <img src="http://localhost/RomeroFrancisco/assets/img/imagen2.jpg" class="img-fluid mb-2" style="max-height: 150px; width: auto; object-fit: cover;" alt="Mejor Calificado 3">
-            <h6 class="mt-1" style="font-size: 14px;">Título Mejor 3</h6> <!-- Título más pequeño -->
-            <p class="text-muted" style="font-size: 12px;">$34.99</p> <!-- Precio -->
-        </div>
-    </div>
-</li>
+                    <li class="mb-3">
+                        <h3 class="h5">Mejores calificado</h3>
+                        <!-- Fila de imágenes con descripciones -->
+                        <div class="row">
+                            <div class="col-md-4 text-center">
+                                <img src="http://localhost/RomeroFrancisco/assets/img/monsterhunter.jpg" class="img-fluid mb-2 section-image" alt="Mejor Calificado 1">
+                                <h6 class="mt-1 section-title">Título Mejor 1</h6>
+                                <p class="text-muted section-price">$29.99</p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <img src="http://localhost/RomeroFrancisco/assets/img/mario.jpg" class="img-fluid mb-2 section-image" alt="Mejor Calificado 2">
+                                <h6 class="mt-1 section-title">Título Mejor 2</h6>
+                                <p class="text-muted section-price">$24.99</p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <img src="http://localhost/RomeroFrancisco/assets/img/imagen2.jpg" class="img-fluid mb-2 section-image" alt="Mejor Calificado 3">
+                                <h6 class="mt-1 section-title">Título Mejor 3</h6>
+                                <p class="text-muted section-price">$34.99</p>
+                            </div>
+                        </div>
+                    </li>
 
-<li class="mb-3">
-    <h3 class="h5">Clásicos Atemporales</h3>
-    <!-- Fila de imágenes con descripciones -->
-    <div class="row">
-        <div class="col-md-4 text-center">
-            <img src="http://localhost/RomeroFrancisco/assets/img/black.jpg" class="img-fluid mb-2" style="max-height: 150px; width: auto; object-fit: cover;" alt="Clásico 1">
-            <h6 class="mt-1" style="font-size: 14px;">Título Clásico 1</h6> <!-- Título más pequeño -->
-            <p class="text-muted" style="font-size: 12px;">$19.99</p> <!-- Precio -->
-        </div>
-        <div class="col-md-4 text-center">
-            <img src="http://localhost/RomeroFrancisco/assets/img/godofwar.jpg" class="img-fluid mb-2" style="max-height: 150px; width: auto; object-fit: cover;" alt="Clásico 2">
-            <h6 class="mt-1" style="font-size: 14px;">Título Clásico 2</h6> <!-- Título más pequeño -->
-            <p class="text-muted" style="font-size: 12px;">$39.99</p> <!-- Precio -->
-        </div>
-        <div class="col-md-4 text-center">
-            <img src="http://localhost/RomeroFrancisco/assets/img/Doom-64.jpg" class="img-fluid mb-2" style="max-height: 150px; width: auto; object-fit: cover;" alt="Clásico 3">
-            <h6 class="mt-1" style="font-size: 14px;">Título Clásico 3</h6> <!-- Título más pequeño -->
-            <p class="text-muted" style="font-size: 12px;">$29.99</p> <!-- Precio -->
-        </div>
-    </div>
-</li>
+                    <li class="mb-3">
+                        <h3 class="h5">Clásicos Atemporales</h3>
+                        <!-- Fila de imágenes con descripciones -->
+                        <div class="row">
+                            <div class="col-md-4 text-center">
+                                <img src="http://localhost/RomeroFrancisco/assets/img/black.jpg" class="img-fluid mb-2 section-image" alt="Clásico 1">
+                                <h6 class="mt-1 section-title">Título Clásico 1</h6>
+                                <p class="text-muted section-price">$19.99</p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <img src="http://localhost/RomeroFrancisco/assets/img/godofwar.jpg" class="img-fluid mb-2 section-image" alt="Clásico 2">
+                                <h6 class="mt-1 section-title">Título Clásico 2</h6>
+                                <p class="text-muted section-price">$39.99</p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <img src="http://localhost/RomeroFrancisco/assets/img/Doom-64.jpg" class="img-fluid mb-2 section-image" alt="Clásico 3">
+                                <h6 class="mt-1 section-title">Título Clásico 3</h6>
+                                <p class="text-muted section-price">$29.99</p>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -199,11 +198,3 @@
 
 <!-- Scripts de Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-
-
-
-
-
-
-

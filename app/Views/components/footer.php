@@ -1,4 +1,4 @@
-<footer class="bg-light py-3 mt-4">
+<footer class="custom-footer py-3 ">
     <div class="container text-center">
         <!-- Enlaces organizados horizontalmente -->
         <p>
