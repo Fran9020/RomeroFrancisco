@@ -7,7 +7,7 @@ class Home extends BaseController
     public function index()
     {
         return view('templates/layout', [
-            'title' => 'Tecnalix',
+            'title' => 'Game-Box',
             'content' => view('pages/inicio')
         ]);
     }
