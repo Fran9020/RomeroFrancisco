@@ -4,7 +4,7 @@
     <div class="container">
         <!-- Logo -->
         <a class="navbar-brand me-3" href="<?php echo base_url(); ?>">
-            <img src="http://localhost/RomeroFrancisco/assets/img/Logo.png" alt="Logo" class="nav-logo">
+            <img src="http://localhost/RomeroFrancisco/public/assets/img/Logo.png" alt="Logo" class="nav-logo">
         </a>
         <!-- Boton toggler para pantallas pequeñas -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

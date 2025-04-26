@@ -1,35 +1,54 @@
+<section class="title-section">
+    <!-- Imagen centrada -->
+    <img src="http://localhost/RomeroFrancisco/public/assets/img/TituloFondo.png" alt="Logo Game-Box" class="title-image">
+</section>
+
+
 <section class="container-fluid main-section">
     <div class="container">
         <div class="row justify-content-center">
             <!-- Cuadro blanco centrado -->
-            <div class="col-md-8 p-4 border rounded" style="background-color: #FFFFFF; color: #000000;">
-                <!-- Título central -->
-                <h2 class="display-5 text-center mb-4">Nuestro Objetivo como sistema de compra y venta de productos</h2>
+            <div class="col-md-8 p-4 border rounded bg-light text-dark" style="margin-top: -50px;"> <!-- Ajuste de margen superior -->
                 <!-- Descripción principal -->
                 <p class="lead">
-                    En nuestro sistema, buscamos simplificar el proceso de compra y venta, conectando a los usuarios con productos de calidad y ofreciéndoles una experiencia transparente y confiable. 
-                    Nuestro objetivo principal es crear un espacio donde cada transacción sea una oportunidad para generar satisfacción y confianza entre compradores y vendedores.
+                    En nuestro negocio, nos enfocamos en la venta de videojuegos en formato físico,
+                    que incluyen cajas, DVDs, cartuchos y más, abarcando tanto títulos actuales como clásicos. 
+                    Nuestro objetivo principal es la preservación de los videojuegos, una forma de 
+                    asegurar que estas piezas de entretenimiento y cultura permanezcan accesibles y 
+                    disfrutables para generaciones futuras.
+                </p>
+                <p class="lead">
+                    Creemos que tener videojuegos en formato físico aporta beneficios únicos,
+                    como optimizar espacio de almacenamiento, ofrecer opciones que no existen en ediciones 
+                    digitales y evitar la pérdida de acceso que sucede cuando empresas cierran 
+                    descargas digitales. Además, sabemos que los formatos físicos despiertan la pasión de 
+                    coleccionistas y entusiastas que valoran tener sus juegos en sus manos.
+                </p>
+                <p class="lead">
+                    Para lograrlo, fomentamos la colaboración entre usuarios que deseen vender juegos 
+                    en físico y trabajamos en asociación con empresas que puedan proveer ediciones 
+                    físicas únicas. Así, creamos una comunidad que celebra el arte de los videojuegos y 
+                    su preservación.
                 </p>
             </div>
         </div>
 
-    <!-- Espacios compactos con separación -->
-    <div class="row justify-content-center mt-5 g-3">
-        <!-- Espacio 1 -->
-        <div class="col-md-5 d-flex align-items-center" style="height: 250px; border: 1px solid #ddd; border-radius: 10px; overflow: hidden; background-color: #FFFFFF; color: #000000;"> <!-- Cuadro blanco -->
-            <img src="https://via.placeholder.com/150x250?text=Imagen+1" class="img-fluid me-3" style="height: 100%; object-fit: cover;" alt="Imagen 1">
-            <div>
-                <h5 class="mb-2">Descripción del Espacio 1</h5>
-                <p class="text-muted">Este espacio presenta una imagen y una descripción breve, ideal para destacar contenido importante.</p>
+        <!-- Espacios compactos con separación -->
+        <div class="row justify-content-center mt-5">
+            <!-- Espacio 1 -->
+            <div class="col-md-5 me-md-3 mb-4 mb-md-0" style="border: 1px solid #ddd; border-radius: 10px; overflow: hidden; background-color: #FFFFFF; color: #000000;">
+                <img src="https://via.placeholder.com/500x250?text=Imagen+1" class="img-fluid w-100" style="object-fit: cover;" alt="Imagen 1">
+                <div class="p-3 text-center">
+                    <h5 class="mb-2">Romero Francisco Ignacio</h5>
+                </div>
             </div>
-        </div>
 
-        <!-- Espacio 2 -->
-        <div class="col-md-5 d-flex align-items-center" style="height: 250px; border: 1px solid #ddd; border-radius: 10px; overflow: hidden; background-color: #FFFFFF; color: #000000;"> <!-- Cuadro blanco -->
-            <img src="https://via.placeholder.com/150x250?text=Imagen+2" class="img-fluid me-3" style="height: 100%; object-fit: cover;" alt="Imagen 2">
-            <div>
-                <h5 class="mb-2">Descripción del Espacio 2</h5>
-                <p class="text-muted">Este espacio también muestra una imagen y una descripción, manteniendo un diseño limpio y atractivo.</p>
+            <!-- Espacio 2 -->
+            <div class="col-md-5" style="border: 1px solid #ddd; border-radius: 10px; overflow: hidden; background-color: #FFFFFF; color: #000000;">
+                <img src="https://via.placeholder.com/500x250?text=Imagen+2" class="img-fluid w-100" style="object-fit: cover;" alt="Imagen 2">
+                <div class="p-3 text-center">
+                    <h5 class="mb-2">Sosa Diana</h5>
+                </div>
             </div>
         </div>
     </div>
@@ -37,6 +56,8 @@
 
 <!-- Scripts de Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
         
 
 
