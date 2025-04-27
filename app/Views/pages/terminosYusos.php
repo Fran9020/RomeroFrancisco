@@ -1,6 +1,6 @@
 <section class="title-section">
     <!-- Imagen centrada -->
-    <img src="http://localhost/RomeroFrancisco/public/assets/img/TituloFondo.png" alt="Logo Game-Box" class="title-image">
+    <img src="http://localhost/RomeroFrancisco/public/assets/img/terminosyusos.png" alt="Logo Game-Box" class="title-image">
 </section>
 
 <section class="container" style="background-color: #1B263B; margin: 0; padding: 50px 0; max-width: 100%; overflow-x: hidden;">

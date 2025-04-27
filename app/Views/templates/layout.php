@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game-Box</title>
+    <link rel="icon" href="http://localhost/RomeroFrancisco/public/assets/img/logo.png" type="image/x-icon">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
     <link href="<?= base_url('public/assets/css/bootstrap.min.css'); ?>" rel="stylesheet">

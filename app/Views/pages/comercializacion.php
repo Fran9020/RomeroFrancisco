@@ -1,6 +1,6 @@
 <section class="title-section">
     <!-- Imagen centrada -->
-    <img src="http://localhost/RomeroFrancisco/public/assets/img/TituloFondo.png" alt="Logo Game-Box" class="title-image">
+    <img src="http://localhost/RomeroFrancisco/public/assets/img/Comercializacion.png" alt="Logo Game-Box" class="title-image">
 </section>
 
 
@@ -22,7 +22,7 @@
                         </div>
                         <!-- Imagen -->
                         <div class="col-md-6 text-center">
-                            <img src="https://via.placeholder.com/300x200?text=Entrega" class="img-fluid rounded" alt="Tipos de entrega">
+                            <img src="http://localhost/RomeroFrancisco/public/assets/img/entregas.png" class="img-fluid rounded" alt="Tipos de entrega">
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                     <div class="row align-items-center">
                         <!-- Imagen -->
                         <div class="col-md-6 text-center">
-                            <img src="https://via.placeholder.com/300x200?text=Envios" class="img-fluid rounded" alt="Formas de envíos">
+                            <img src="http://localhost/RomeroFrancisco/public/assets/img/Envia_Map_Loop.png" class="img-fluid rounded" alt="Formas de envíos">
                         </div>
                         <!-- Texto -->
                         <div class="col-md-6">
@@ -56,7 +56,7 @@
                         </div>
                         <!-- Imagen -->
                         <div class="col-md-6 text-center">
-                            <img src="https://via.placeholder.com/300x200?text=Pago" class="img-fluid rounded" alt="Formas de pago">
+                            <img src="http://localhost/RomeroFrancisco/public/assets/img/pago.png" class="img-fluid rounded" alt="Formas de pago">
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                     <div class="row align-items-center">
                         <!-- Imagen -->
                         <div class="col-md-6 text-center">
-                            <img src="https://via.placeholder.com/300x200?text=Devoluciones" class="img-fluid rounded" alt="Política de devoluciones">
+                            <img src="http://localhost/RomeroFrancisco/public/assets/img/Devolucion.png" class="img-fluid rounded" alt="Política de devoluciones">
                         </div>
                         <!-- Texto -->
                         <div class="col-md-6">

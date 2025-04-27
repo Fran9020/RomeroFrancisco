@@ -1,6 +1,6 @@
 <section class="title-section">
     <!-- Imagen centrada -->
-    <img src="http://localhost/RomeroFrancisco/public/assets/img/TituloFondo.png" alt="Logo Game-Box" class="title-image">
+    <img src="http://localhost/RomeroFrancisco/public/assets/img/quienesosmos.png" alt="Logo Game-Box" class="title-image">
 </section>
 
 
