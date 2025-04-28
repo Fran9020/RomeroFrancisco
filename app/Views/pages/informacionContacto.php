@@ -11,9 +11,9 @@
             <!-- Espacio 1: Contacto de Persona 1 -->
             <div class="card mb-4">
                 <div class="card-body">
-                    <h4 class="card-title text-center">Contacto: Romero Francisco Ignacio</h4>
-                    <p class="mb-2"><strong>Correo:</strong> juan.perez@tecnalix.com</p>
-                    <p class="mb-2"><strong>Teléfono:</strong> +54 9 341-123-4567</p>
+                    <h4 class="card-title text-center">Romero Francisco Ignacio</h4>
+                    <p class="mb-2"><strong>Correo:</strong> fran92162@gmail.com</p>
+                    <p class="mb-2"><strong>Teléfono:</strong> +54 3794991145</p>
                     <p class="mb-0"><strong>Disponibilidad:</strong> Lunes a viernes, 9:00 AM - 6:00 PM</p>
                 </div>
 
@@ -21,8 +21,8 @@
                 <div class="card-body">
                     <!-- Botón para desplegar el formulario -->
                     <div class="d-flex justify-content-center">
-                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#consultaForm" aria-expanded="false" aria-controls="consultaForm" style="width: 70%;">
-                            Enviar consulta
+                        <button class="btn btn-primary toggle-button" type="button" data-bs-toggle="collapse" data-bs-target="#consultaForm" aria-expanded="false" aria-controls="consultaForm" style="width: 70%;">
+                            Realizar consulta
                         </button>
                     </div>
 
@@ -81,8 +81,8 @@
                 <div class="card-body">
                     <!-- Botón para desplegar el formulario -->
                     <div class="d-flex justify-content-center">
-                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#consultaForm2" aria-expanded="false" aria-controls="consultaForm2" style="width: 70%;">
-                            Enviar consulta
+                        <button class="btn btn-primary toggle-button" type="button" data-bs-toggle="collapse" data-bs-target="#consultaForm2" aria-expanded="false" aria-controls="consultaForm2" style="width: 70%;">
+                            Realizar consulta
                         </button>
                     </div>
 
@@ -131,5 +131,17 @@
     </div>
 </section>
 
-<!-- Scripts de Bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Scripts adicionales -->
+<script>
+    document.querySelectorAll('.toggle-button').forEach(button => {
+        button.addEventListener('click', function () {
+            const targetId = button.getAttribute('data-bs-target');
+            const targetElement = document.querySelector(targetId);
+            const isCollapsed = targetElement.classList.contains('show');
+            
+            // Cambiar texto al presionar botón
+            button.textContent = isCollapsed ? 'Realizar consulta' : 'Cancelar consulta';
+        });
+    });
+</script>
+

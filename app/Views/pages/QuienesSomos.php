@@ -3,28 +3,27 @@
     <img src="http://localhost/RomeroFrancisco/public/assets/img/quienesosmos.png" alt="Logo Game-Box" class="title-image">
 </section>
 
-
 <section class="container-fluid main-section">
     <div class="container">
         <div class="row justify-content-center">
             <!-- Cuadro blanco centrado -->
             <div class="col-md-8 p-4 border rounded bg-light text-dark" style="margin-top: -50px;"> <!-- Ajuste de margen superior -->
                 <!-- Descripción principal -->
-                <p class="lead">
+                <p style="font-family: 'Helvetica', sans-serif; font-size: 16px; line-height: 1.5; text-align: left; color: #212529;">
                     En nuestro negocio, nos enfocamos en la venta de videojuegos en formato físico,
                     que incluyen cajas, DVDs, cartuchos y más, abarcando tanto títulos actuales como clásicos. 
                     Nuestro objetivo principal es la preservación de los videojuegos, una forma de 
                     asegurar que estas piezas de entretenimiento y cultura permanezcan accesibles y 
                     disfrutables para generaciones futuras.
                 </p>
-                <p class="lead">
+                <p style="font-family: 'Helvetica', sans-serif; font-size: 16px; line-height: 1.5; text-align: left; color: #212529;">
                     Creemos que tener videojuegos en formato físico aporta beneficios únicos,
                     como optimizar espacio de almacenamiento, ofrecer opciones que no existen en ediciones 
                     digitales y evitar la pérdida de acceso que sucede cuando empresas cierran 
                     descargas digitales. Además, sabemos que los formatos físicos despiertan la pasión de 
                     coleccionistas y entusiastas que valoran tener sus juegos en sus manos.
                 </p>
-                <p class="lead">
+                <p style="font-family: 'Helvetica', sans-serif; font-size: 16px; line-height: 1.5; text-align: left; color: #212529;">
                     Para lograrlo, fomentamos la colaboración entre usuarios que deseen vender juegos 
                     en físico y trabajamos en asociación con empresas que puedan proveer ediciones 
                     físicas únicas. Así, creamos una comunidad que celebra el arte de los videojuegos y 
