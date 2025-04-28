@@ -11,8 +11,6 @@
     <link href="<?= base_url('public/assets/css/bootstrap.min.css'); ?>" rel="stylesheet">
 
     <link href="<?= base_url('public/assets/css/mycustom.css'); ?>" rel="stylesheet">
-
-    
 </head>
 <body>
     <!-- Encabezado -->

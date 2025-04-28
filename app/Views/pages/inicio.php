@@ -53,7 +53,7 @@
                                                 <img src="http://localhost/RomeroFrancisco/public/assets/img/imagen1.jpg" class="d-block img-fluid carousel-image" alt="Imagen 1">
                                                 <div class="ms-3 text-start">
                                                     <h4>Dark Souls</h4>
-                                                    <h5 class="text-muted">$29.99</h5>
+                                                    <h5 class=" price-text">$29.99</h5>
                                                     <p>Dark Souls es una serie de juegos de rol de acción creada por Hidetaka Miyazaki de FromSoftware y publicada por Bandai Namco Entertainment.</p>
                                                 </div>
                                             </div>
@@ -63,7 +63,7 @@
                                                 <img src="http://localhost/RomeroFrancisco/public/assets/img/imagen2.jpg" class="d-block img-fluid carousel-image" alt="Imagen 2">
                                                 <div class="ms-3 text-start">
                                                     <h4>The Legend Of Zelda</h4>
-                                                    <h5 class="text-muted">$24.99</h5>
+                                                    <h5 class=" price-text">$24.99</h5>
                                                     <p>videojuego de acción-aventura de 2017 de la serie The Legend of Zelda, desarrollado por la 
                                                         filial Nintendo EPD en colaboración con Monolith Soft y publicado por Nintendo para las 
                                                         consolas Wii U y Nintendo Switch</p>
@@ -75,7 +75,7 @@
                                                 <img src="http://localhost/RomeroFrancisco/public/assets/img/imagen3.jpg" class="d-block img-fluid carousel-image" alt="Imagen 3">
                                                 <div class="ms-3 text-start">
                                                     <h4>Minecraft</h4>
-                                                    <h5 class="text-muted">$21.99</h5>
+                                                    <h5 class=" price-text">$21.99</h5>
                                                     <p>Minecraft es un videojuego de mundo abierto que permite a los jugadores explorar, construir y sobrevivir en un entorno generado de manera procedimental.</p>
                                                 </div>
                                             </div>
@@ -85,7 +85,7 @@
                                                 <img src="http://localhost/RomeroFrancisco/public/assets/img/imagen4.jpg" class="d-block img-fluid carousel-image" alt="Imagen 4">
                                                 <div class="ms-3 text-start">
                                                     <h4>Crash Bandicoot 4: It's About Time</h4>
-                                                    <h5 class="text-muted">$23.99</h5>
+                                                    <h5 class=" price-text">$23.99</h5>
                                                     <p>videojuego de plataformas desarrollado por Toys for Bob y publicado por Activision en 2020. Se lanzó originalmente para PlayStation 4 y 
                                                         Xbox One, con lanzamientos para Nintendo Switch, PlayStation 5, Xbox Series X|S y Windows en 2021.</p>
                                                 </div>
@@ -132,17 +132,17 @@
                             <div class="col-md-4 text-center">
                                 <img src="http://localhost/RomeroFrancisco/public/assets/img/imagen1.jpg" class="img-fluid mb-2 section-image" alt="Oferta 1">
                                 <h6 class="mt-1 section-title">Dark Souls</h6>
-                                <p class="text-muted section-price">$29.99</p>
+                                <p class=" section-price price-text">$29.99</p>
                             </div>
                             <div class="col-md-4 text-center">
                                 <img src="http://localhost/RomeroFrancisco/public/assets/img/spidermnan.jpg" class="img-fluid mb-2 section-image" alt="Oferta 2">
                                 <h6 class="mt-1 section-title">Spider-man</h6>
-                                <p class="text-muted section-price">$29.99</p>
+                                <p class=" section-price price-text">$29.99</p>
                             </div>
                             <div class="col-md-4 text-center">
                                 <img src="http://localhost/RomeroFrancisco/public/assets/img/No-More-Heroes.jpg" class="img-fluid mb-2 section-image" alt="Oferta 3">
                                 <h6 class="mt-1 section-title">No More Heroes</h6>
-                                <p class="text-muted section-price">$35.99</p>
+                                <p class=" section-price price-text">$35.99</p>
                             </div>
                         </div>
                     </li>
@@ -154,17 +154,17 @@
                             <div class="col-md-4 text-center">
                                 <img src="http://localhost/RomeroFrancisco/public/assets/img/monsterhunter.jpg" class="img-fluid mb-2 section-image" alt="Mejor Calificado 1">
                                 <h6 class="mt-1 section-title">Monster Hunter</h6>
-                                <p class="text-muted section-price">$29.99</p>
+                                <p class=" section-price price-text">$29.99</p>
                             </div>
                             <div class="col-md-4 text-center">
                                 <img src="http://localhost/RomeroFrancisco/public/assets/img/mario.jpg" class="img-fluid mb-2 section-image" alt="Mejor Calificado 2">
                                 <h6 class="mt-1 section-title">Mario Kart 8</h6>
-                                <p class="text-muted section-price">$24.99</p>
+                                <p class=" section-price price-text">$24.99</p>
                             </div>
                             <div class="col-md-4 text-center">
                                 <img src="http://localhost/RomeroFrancisco/public/assets/img/imagen2.jpg" class="img-fluid mb-2 section-image" alt="Mejor Calificado 3">
                                 <h6 class="mt-1 section-title">The legend of Zelda</h6>
-                                <p class="text-muted section-price">$34.99</p>
+                                <p class=" section-price price-text">$34.99</p>
                             </div>
                         </div>
                     </li>
@@ -176,17 +176,17 @@
                             <div class="col-md-4 text-center">
                                 <img src="http://localhost/RomeroFrancisco/public/assets/img/black.jpg" class="img-fluid mb-2 section-image" alt="Clásico 1">
                                 <h6 class="mt-1 section-title">Black</h6>
-                                <p class="text-muted section-price">$19.99</p>
+                                <p class=" section-price price-text">$19.99</p>
                             </div>
                             <div class="col-md-4 text-center">
                                 <img src="http://localhost/RomeroFrancisco/public/assets/img/godofwar.jpg" class="img-fluid mb-2 section-image" alt="Clásico 2">
                                 <h6 class="mt-1 section-title">God Of War</h6>
-                                <p class="text-muted section-price">$39.99</p>
+                                <p class=" section-price price-text">$39.99</p>
                             </div>
                             <div class="col-md-4 text-center">
                                 <img src="http://localhost/RomeroFrancisco/public/assets/img/Doom-64.jpg" class="img-fluid mb-2 section-image" alt="Clásico 3">
                                 <h6 class="mt-1 section-title">Doom 64</h6>
-                                <p class="text-muted section-price">$29.99</p>
+                                <p class=" section-price price-text">$29.99</p>
                             </div>
                         </div>
                     </li>

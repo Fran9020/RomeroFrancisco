@@ -3,129 +3,110 @@
     <img src="http://localhost/RomeroFrancisco/public/assets/img/informaciondecontacto.png" alt="Logo Game-Box" class="title-image">
 </section>
 
-<section class="container" style="background-color: #1B263B; margin: 0; padding: 50px 0; max-width: 100%; overflow-x: hidden;">
-    <div class="row justify-content-center">
-        <!-- Cuadro blanco centrado (más pequeño) y sin margen superior -->
-        <div class="col-md-7 p-4 border rounded bg-light text-dark" style="margin-top: -50px;">
+<section class="container-fluid main-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- Cuadro blanco centrado -->
+            <div class="col-md-7 content-box-quienes p-4">
 
-            <!-- Espacio 1: Contacto de Persona 1 -->
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h4 class="card-title text-center">Romero Francisco Ignacio</h4>
-                    <p class="mb-2"><strong>Correo:</strong> fran92162@gmail.com</p>
-                    <p class="mb-2"><strong>Teléfono:</strong> +54 3794991145</p>
-                    <p class="mb-0"><strong>Disponibilidad:</strong> Lunes a viernes, 9:00 AM - 6:00 PM</p>
-                </div>
+                <!-- Persona 1 -->
+                <div class="custom-card mb-4 p-3">
+                    <div class="card-body-custom">
+                        <h4 class="card-title-custom">Romero Francisco Ignacio</h4>
+                        <p class="contacto-dato"><strong>Correo:</strong> fran92162@gmail.com</p>
+                        <p class="contacto-dato"><strong>Teléfono:</strong> +54 3794991145</p>
+                        <p class="contacto-dato"><strong>Disponibilidad:</strong> Lunes a viernes, 9:00 AM - 6:00 PM</p>
+                    </div>
 
-                <!-- Botón y formulario dentro de una tarjeta -->
-                <div class="card-body">
-                    <!-- Botón para desplegar el formulario -->
+                    <!-- Botón para desplegar formulario -->
                     <div class="d-flex justify-content-center">
-                        <button class="btn btn-primary toggle-button" type="button" data-bs-toggle="collapse" data-bs-target="#consultaForm" aria-expanded="false" aria-controls="consultaForm" style="width: 70%;">
+                        <button class="btn-consulta toggle-button " type="button" data-bs-toggle="collapse" data-bs-target="#consultaForm1" aria-expanded="false" aria-controls="consultaForm1">
                             Realizar consulta
                         </button>
                     </div>
 
-                    <!-- Formulario desplegable -->
-                    <div class="collapse mt-4" id="consultaForm">
-                        <form style="width: 70%; margin: 0 auto;">
-                            <!-- Nombre de Usuario -->
+                    <!-- Formulario oculto -->
+                    <div class="collapse mt-4" id="consultaForm1">
+                        <form class="form-contacto">
                             <div class="mb-3">
-                                <label for="nombreUsuario" class="form-label">Nombre de Usuario</label>
-                                <input type="text" class="form-control" id="nombreUsuario" placeholder="Ingresa tu nombre">
+                                <label class="form-label" for="nombreUsuario1">Nombre de Usuario</label>
+                                <input type="text" id="nombreUsuario1" class="form-contacto-input" placeholder="Ingresa tu nombre">
                             </div>
 
-                            <!-- Correo Electrónico -->
                             <div class="mb-3">
-                                <label for="correoElectronico" class="form-label">Correo Electrónico</label>
-                                <input type="email" class="form-control" id="correoElectronico" placeholder="Ingresa tu correo electrónico">
+                                <label class="form-label" for="correoElectronico1">Correo Electrónico</label>
+                                <input type="email" id="correoElectronico1" class="form-contacto-input" placeholder="Ingresa tu correo electrónico">
                             </div>
 
-                            <!-- Motivo (Menú desplegable) -->
                             <div class="mb-3">
-                                <label for="motivoConsulta" class="form-label">Motivo</label>
-                                <select class="form-select" id="motivoConsulta">
-                                    <option value="Problemas con Pedido">Problemas con Pedido</option>
-                                    <option value="Consultas de Productos">Consultas de Productos</option>
-                                    <option value="Soporte Técnico">Soporte Técnico</option>
-                                    <option value="Problemas de Pago">Problemas de Pago</option>
-                                    <option value="Otras Razones">Otras Razones</option>
+                                <label class="form-label" for="motivoConsulta1">Motivo</label>
+                                <select id="motivoConsulta1" class="form-contacto-input">
+                                    <option>Problemas con Pedido</option>
+                                    <option>Consultas de Productos</option>
+                                    <option>Soporte Técnico</option>
+                                    <option>Problemas de Pago</option>
+                                    <option>Otras Razones</option>
                                 </select>
                             </div>
 
-                            <!-- Comentario Adicional -->
                             <div class="mb-3">
-                                <label for="comentarioAdicional" class="form-label">Comentario Adicional</label>
-                                <textarea class="form-control" id="comentarioAdicional" rows="4" placeholder="Detalle su problema aquí"></textarea>
+                                <label class="form-label" for="comentarioAdicional1">Comentario Adicional</label>
+                                <textarea id="comentarioAdicional1" class="form-contacto-input" rows="4" placeholder="Detalle su problema aquí"></textarea>
                             </div>
 
-                            <!-- Botón de Enviar -->
-                            <div class="d-flex justify-content-center">
-                                <button type="submit" class="btn btn-success w-100">Enviar</button>
-                            </div>
+                            <button type="submit" class="btn-enviar">Enviar</button>
                         </form>
                     </div>
                 </div>
-            </div>
 
-            <!-- Espacio 2: Contacto de Persona 2 -->
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h4 class="card-title text-center">Contacto: Diana Sosa</h4>
-                    <p class="mb-2"><strong>Correo:</strong> maria.lopez@tecnalix.com</p>
-                    <p class="mb-2"><strong>Teléfono:</strong> +54 9 351-987-6543</p>
-                    <p class="mb-0"><strong>Disponibilidad:</strong> Lunes a viernes, 10:00 AM - 7:00 PM</p>
-                </div>
+                <!-- Persona 2 -->
+                <div class="custom-card mb-4 p-3">
+                    <div class="card-body-custom">
+                        <h4 class="card-title-custom">Diana Sosa</h4>
+                        <p class="contacto-dato"><strong>Correo:</strong> maria.lopez@tecnalix.com</p>
+                        <p class="contacto-dato"><strong>Teléfono:</strong> +54 9 351-987-6543</p>
+                        <p class="contacto-dato"><strong>Disponibilidad:</strong> Lunes a viernes, 10:00 AM - 7:00 PM</p>
+                    </div>
 
-                <!-- Botón y formulario dentro de una tarjeta -->
-                <div class="card-body">
-                    <!-- Botón para desplegar el formulario -->
                     <div class="d-flex justify-content-center">
-                        <button class="btn btn-primary toggle-button" type="button" data-bs-toggle="collapse" data-bs-target="#consultaForm2" aria-expanded="false" aria-controls="consultaForm2" style="width: 70%;">
+                        <button class="btn-consulta toggle-button" type="button" data-bs-toggle="collapse" data-bs-target="#consultaForm2" aria-expanded="false" aria-controls="consultaForm2">
                             Realizar consulta
                         </button>
                     </div>
 
-                    <!-- Formulario desplegable -->
                     <div class="collapse mt-4" id="consultaForm2">
-                        <form style="width: 70%; margin: 0 auto;">
-                            <!-- Nombre de Usuario -->
+                        <form class="form-contacto">
                             <div class="mb-3">
-                                <label for="nombreUsuario" class="form-label">Nombre de Usuario</label>
-                                <input type="text" class="form-control" id="nombreUsuario" placeholder="Ingresa tu nombre">
+                                <label class="form-label" for="nombreUsuario2">Nombre de Usuario</label>
+                                <input type="text" id="nombreUsuario2" class="form-contacto-input" placeholder="Ingresa tu nombre">
                             </div>
 
-                            <!-- Correo Electrónico -->
                             <div class="mb-3">
-                                <label for="correoElectronico" class="form-label">Correo Electrónico</label>
-                                <input type="email" class="form-control" id="correoElectronico" placeholder="Ingresa tu correo electrónico">
+                                <label class="form-label" for="correoElectronico2">Correo Electrónico</label>
+                                <input type="email" id="correoElectronico2" class="form-contacto-input" placeholder="Ingresa tu correo electrónico">
                             </div>
 
-                            <!-- Motivo (Menú desplegable) -->
                             <div class="mb-3">
-                                <label for="motivoConsulta" class="form-label">Motivo</label>
-                                <select class="form-select" id="motivoConsulta">
-                                    <option value="Problemas con Pedido">Problemas con Pedido</option>
-                                    <option value="Consultas de Productos">Consultas de Productos</option>
-                                    <option value="Soporte Técnico">Soporte Técnico</option>
-                                    <option value="Problemas de Pago">Problemas de Pago</option>
-                                    <option value="Otras Razones">Otras Razones</option>
+                                <label class="form-label" for="motivoConsulta2">Motivo</label>
+                                <select id="motivoConsulta2" class="form-contacto-input">
+                                    <option>Problemas con Pedido</option>
+                                    <option>Consultas de Productos</option>
+                                    <option>Soporte Técnico</option>
+                                    <option>Problemas de Pago</option>
+                                    <option>Otras Razones</option>
                                 </select>
                             </div>
 
-                            <!-- Comentario Adicional -->
                             <div class="mb-3">
-                                <label for="comentarioAdicional" class="form-label">Comentario Adicional</label>
-                                <textarea class="form-control" id="comentarioAdicional" rows="4" placeholder="Detalle su problema aquí"></textarea>
+                                <label class="form-label" for="comentarioAdicional2">Comentario Adicional</label>
+                                <textarea id="comentarioAdicional2" class="form-contacto-input" rows="4" placeholder="Detalle su problema aquí"></textarea>
                             </div>
 
-                            <!-- Botón de Enviar -->
-                            <div class="d-flex justify-content-center">
-                                <button type="submit" class="btn btn-success w-100">Enviar</button>
-                            </div>
+                            <button type="submit" class="btn-enviar">Enviar</button>
                         </form>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -134,14 +115,22 @@
 <!-- Scripts adicionales -->
 <script>
     document.querySelectorAll('.toggle-button').forEach(button => {
+        const targetSelector = button.getAttribute('data-bs-target');
+        const collapseElement = document.querySelector(targetSelector);
+        const collapse = new bootstrap.Collapse(collapseElement, { toggle: false });
+
+        collapseElement.addEventListener('show.bs.collapse', function () {
+            button.textContent = 'Cancelar consulta';
+        });
+
+        collapseElement.addEventListener('hide.bs.collapse', function () {
+            button.textContent = 'Realizar consulta';
+        });
+
         button.addEventListener('click', function () {
-            const targetId = button.getAttribute('data-bs-target');
-            const targetElement = document.querySelector(targetId);
-            const isCollapsed = targetElement.classList.contains('show');
-            
-            // Cambiar texto al presionar botón
-            button.textContent = isCollapsed ? 'Realizar consulta' : 'Cancelar consulta';
+            collapse.toggle();
         });
     });
 </script>
+
 

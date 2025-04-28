@@ -1,26 +1,21 @@
 <section class="title-section">
-    <!-- Imagen centrada -->
     <img src="http://localhost/RomeroFrancisco/public/assets/img/Comercializacion.png" alt="Logo Game-Box" class="title-image">
 </section>
 
-
-<section class="container-fluid" style="background-color: #1B263B; margin: 0; padding: 50px 0;"> <!-- Fondo azul marino -->
+<section class="container-fluid comercializacion-fondo">
     <div class="container">
         <div class="row justify-content-center">
-            <!-- Cuadro blanco centrado -->
-            <div class="col-md-8 p-4 border rounded bg-light text-dark" style="margin-top: -50px;"> <!-- Ajuste de margen superior -->
+            <div class="col-md-8 comercializacion-caja">
 
                 <!-- Tipos de Entrega -->
                 <div class="mb-4">
                     <div class="row align-items-center">
-                        <!-- Texto -->
                         <div class="col-md-6">
                             <h4>Tipos de Entrega</h4>
                             <p>
                                 Ofrecemos opciones flexibles para la entrega de tus productos, incluyendo entrega a domicilio y recogida en sucursales cercanas. Nuestro objetivo es garantizar que recibas tus pedidos de la forma más conveniente para ti.
                             </p>
                         </div>
-                        <!-- Imagen -->
                         <div class="col-md-6 text-center">
                             <img src="http://localhost/RomeroFrancisco/public/assets/img/entregas.png" class="img-fluid rounded" alt="Tipos de entrega">
                         </div>
@@ -30,11 +25,9 @@
                 <!-- Formas de Envíos -->
                 <div class="mb-4">
                     <div class="row align-items-center">
-                        <!-- Imagen -->
                         <div class="col-md-6 text-center">
                             <img src="http://localhost/RomeroFrancisco/public/assets/img/Envia_Map_Loop.png" class="img-fluid rounded" alt="Formas de envíos">
                         </div>
-                        <!-- Texto -->
                         <div class="col-md-6">
                             <h4>Formas de Envíos</h4>
                             <p>
@@ -47,14 +40,12 @@
                 <!-- Formas de Pago -->
                 <div class="mb-4">
                     <div class="row align-items-center">
-                        <!-- Texto -->
                         <div class="col-md-6">
                             <h4>Formas de Pago</h4>
                             <p>
                                 Aceptamos una amplia variedad de métodos de pago, como tarjetas de crédito, débito, transferencias bancarias y billeteras electrónicas. Nuestro sistema de pago es seguro y está diseñado para proteger tus datos personales.
                             </p>
                         </div>
-                        <!-- Imagen -->
                         <div class="col-md-6 text-center">
                             <img src="http://localhost/RomeroFrancisco/public/assets/img/pago.png" class="img-fluid rounded" alt="Formas de pago">
                         </div>
@@ -64,11 +55,9 @@
                 <!-- Política de Devoluciones -->
                 <div class="mb-4">
                     <div class="row align-items-center">
-                        <!-- Imagen -->
                         <div class="col-md-6 text-center">
                             <img src="http://localhost/RomeroFrancisco/public/assets/img/Devolucion.png" class="img-fluid rounded" alt="Política de devoluciones">
                         </div>
-                        <!-- Texto -->
                         <div class="col-md-6">
                             <h4>Política de Devoluciones</h4>
                             <p>

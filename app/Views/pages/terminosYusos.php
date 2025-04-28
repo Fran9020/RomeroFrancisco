@@ -1,16 +1,14 @@
 <section class="title-section">
-    <!-- Imagen centrada -->
     <img src="http://localhost/RomeroFrancisco/public/assets/img/terminosyusos.png" alt="Logo Game-Box" class="title-image">
 </section>
 
-<section class="container" style="background-color: #1B263B; margin: 0; padding: 50px 0; max-width: 100%; overflow-x: hidden;">
+<section class="container terminosyusos-fondo">
     <div class="row justify-content-center">
-        <!-- Cuadro blanco centrado (más pequeño) y sin margen superior -->
-        <div class="col-md-7 p-4 border rounded bg-light text-dark" style="margin-top: -50px;"> <!-- Ajusté el margin-top a -20px para subir el cuadro -->
+        <div class="col-md-7 terminosyusos-caja">
 
             <!-- Aviso Legal de Términos y Usos -->
             <div class="mb-4">
-                <h4 style="text-align: center;">Aviso Legal de Términos y Usos</h4> <!-- Subtítulo centrado -->
+                <h4 class="terminosyusos-subtitulo">Aviso Legal de Términos y Usos</h4>
                 <p>
                     Al utilizar nuestro sitio web, aceptas los términos y condiciones 
                     descritos en este documento. Nos reservamos el derecho de modificar 
@@ -22,7 +20,7 @@
 
             <!-- Servicios Ofrecidos -->
             <div class="mb-4">
-                <h4 style="text-align: center;">Servicios Ofrecidos</h4> <!-- Subtítulo centrado -->
+                <h4 class="terminosyusos-subtitulo">Servicios Ofrecidos</h4>
                 <p>
                     Brindamos una plataforma para la compra y venta de videojuegos en formato físico, ofreciendo 
                     herramientas intuitivas para facilitar el comercio usuario-usuario y usuario-empresa, asegurando
@@ -33,7 +31,7 @@
 
             <!-- Políticas de Privacidad -->
             <div class="mb-4">
-                <h4 style="text-align: center;">Políticas de Privacidad</h4> <!-- Subtítulo centrado -->
+                <h4 class="terminosyusos-subtitulo">Políticas de Privacidad</h4>
                 <p>
                     Nos comprometemos a proteger la privacidad de todos nuestros usuarios y garantizar 
                     la seguridad de sus datos personales. Dicha información proporcionada será utilizada 
@@ -46,7 +44,7 @@
 
             <!-- Procedimientos y Formas en la Venta de Productos -->
             <div class="mb-4">
-                <h4 style="text-align: center;">Procedimientos y Formas de Venta</h4> <!-- Subtítulo centrado -->
+                <h4 class="terminosyusos-subtitulo">Procedimientos y Formas de Venta</h4>
                 <p>
                     Las herramientas que se ponen al alcance de cada usuario son:
                     opciones para adquirir productos, incluyendo métodos de pago 
@@ -58,7 +56,7 @@
 
             <!-- Garantías y Soporte Postventa -->
             <div class="mb-4">
-                <h4 style="text-align: center;">Garantías y Soporte Postventa</h4> <!-- Subtítulo centrado -->
+                <h4 class="terminosyusos-subtitulo">Garantías y Soporte Postventa</h4>
                 <p>
                     Todos los productos adquiridos cuentan con una garantía específica que asegura su calidad 
                     y funcionalidad. En caso de inconvenientes, nuestro equipo de soporte se compromete a ayudar 
@@ -66,29 +64,10 @@
                     en cualquiera de sus ámbitos.
                 </p>
             </div>
+
         </div>
     </div>
 </section>
 
-<!-- Estilos para evitar desbordamiento -->
-<style>
-    /* Aseguramos que no haya desbordamiento horizontal */
-    html, body {
-        overflow-x: hidden;
-    }
-
-    /* Para asegurar que todos los elementos respeten el box-sizing */
-    *, *::before, *::after {
-        box-sizing: border-box;
-    }
-</style>
-
-
-
-
-
-
-
-
-
-
+<!-- Scripts de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
