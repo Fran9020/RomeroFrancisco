@@ -14,26 +14,26 @@
             <div class="col-md-8 content-box-quienes p-4">
                 <!-- primer parrafo explicando que hacemos -->
                 <p class="text-quienes">
-                    En nuestro negocio, nos enfocamos en la venta de videojuegos en formato fisico,
-                    que incluyen cajas, dvds, cartuchos y mas, abarcando tanto titulos actuales como clasicos.
-                    nuestro objetivo principal es la preservacion de los videojuegos, una forma de
+                    En nuestro negocio, nos enfocamos en la venta de videojuegos en formato físico,
+                    que incluyen cajas, DVDs, cartuchos y más, abarcando tanto títulos actuales como clásicos.
+                    Nuestro objetivo principal es la preservación de los videojuegos, una forma de
                     asegurar que estas piezas de entretenimiento y cultura permanezcan accesibles y
                     disfrutables para generaciones futuras.
                 </p>
                 <!-- segundo parrafo sobre los beneficios de lo fisico -->
                 <p class="text-quienes">
-                    Creemos que tener videojuegos en formato fisico aporta beneficios unicos,
+                    Creemos que tener videojuegos en formato físico aporta beneficios únicos,
                     como optimizar espacio de almacenamiento, ofrecer opciones que no existen en ediciones
-                    digitales y evitar la perdida de acceso que sucede cuando empresas cierran
-                    descargas digitales. ademas, sabemos que los formatos fisicos despiertan la pasion de
+                    digitales y evitar la pérdida de acceso que sucede cuando empresas cierran
+                    descargas digitales. Además, sabemos que los formatos físicos despiertan la pasión de
                     coleccionistas y entusiastas que valoran tener sus juegos en sus manos.
                 </p>
                 <!-- tercer parrafo sobre como trabajamos -->
                 <p class="text-quienes">
-                    Para lograrlo, fomentamos la colaboracion entre usuarios que deseen vender juegos
-                    en fisico y trabajamos en asociacion con empresas que puedan proveer ediciones
-                    fisicas unicas. asi, creamos una comunidad que celebra el arte de los videojuegos y
-                    su preservacion.
+                    Para lograrlo, fomentamos la colaboración entre usuarios que deseen vender juegos
+                    en físico y trabajamos en asociación con empresas que puedan proveer ediciones
+                    físicas únicas. Así, creamos una comunidad que celebra el arte de los videojuegos y
+                    su preservación.
                 </p>
             </div>
         </div>
