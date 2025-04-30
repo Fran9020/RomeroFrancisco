@@ -3,11 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
     <title><?= $title ?? 'Game-Box' ?></title>
-=======
-    <title>Game-Box</title>
->>>>>>> d450f2ff4633fc1e4efbbd2c34226a82dce7c66c
     <link rel="icon" href="http://localhost/RomeroFrancisco/public/assets/img/logo.png" type="image/x-icon">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">

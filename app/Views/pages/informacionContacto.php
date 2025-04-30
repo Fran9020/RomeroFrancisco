@@ -9,7 +9,6 @@
             <!-- Cuadro blanco centrado -->
             <div class="col-md-7 content-box-quienes p-4">
 
-<<<<<<< HEAD
                 <!-- Mensaje de éxito -->
                 <?php if (session()->has('message')): ?>
                     <div class="alert alert-success" role="alert">
@@ -28,8 +27,6 @@
                     </div>
                 <?php endif; ?>
 
-=======
->>>>>>> d450f2ff4633fc1e4efbbd2c34226a82dce7c66c
                 <!-- Persona 1 -->
                 <div class="custom-card mb-4 p-3">
                     <div class="card-body-custom">
@@ -41,66 +38,38 @@
 
                     <!-- Botón para desplegar formulario -->
                     <div class="d-flex justify-content-center">
-<<<<<<< HEAD
                         <button class="btn-consulta toggle-button" type="button" data-bs-toggle="collapse" data-bs-target="#consultaForm1" aria-expanded="false" aria-controls="consultaForm1">
-=======
-                        <button class="btn-consulta toggle-button " type="button" data-bs-toggle="collapse" data-bs-target="#consultaForm1" aria-expanded="false" aria-controls="consultaForm1">
->>>>>>> d450f2ff4633fc1e4efbbd2c34226a82dce7c66c
                             Realizar consulta
                         </button>
                     </div>
 
                     <!-- Formulario oculto -->
                     <div class="collapse mt-4" id="consultaForm1">
-<<<<<<< HEAD
                         <form class="form-contacto" action="<?= base_url('InformacionDeContacto/send') ?>" method="post">
                             <div class="mb-3">
                                 <label class="form-label" for="nombreUsuario1">Nombre de Usuario</label>
                                 <input type="text" id="nombreUsuario1" name="nombreUsuario" class="form-contacto-input" placeholder="Ingresa tu nombre" value="<?= old('nombreUsuario') ?>">
-=======
-                        <form class="form-contacto">
-                            <div class="mb-3">
-                                <label class="form-label" for="nombreUsuario1">Nombre de Usuario</label>
-                                <input type="text" id="nombreUsuario1" class="form-contacto-input" placeholder="Ingresa tu nombre">
->>>>>>> d450f2ff4633fc1e4efbbd2c34226a82dce7c66c
                             </div>
 
                             <div class="mb-3">
                                 <label class="form-label" for="correoElectronico1">Correo Electrónico</label>
-<<<<<<< HEAD
                                 <input type="email" id="correoElectronico1" name="correoElectronico" class="form-contacto-input" placeholder="Ingresa tu correo electrónico" value="<?= old('correoElectronico') ?>">
-=======
-                                <input type="email" id="correoElectronico1" class="form-contacto-input" placeholder="Ingresa tu correo electrónico">
->>>>>>> d450f2ff4633fc1e4efbbd2c34226a82dce7c66c
                             </div>
 
                             <div class="mb-3">
                                 <label class="form-label" for="motivoConsulta1">Motivo</label>
-<<<<<<< HEAD
                                 <select id="motivoConsulta1" name="motivoConsulta" class="form-contacto-input">
                                     <option value="Problemas con Pedido" <?= old('motivoConsulta') == 'Problemas con Pedido' ? 'selected' : '' ?>>Problemas con Pedido</option>
                                     <option value="Consultas de Productos" <?= old('motivoConsulta') == 'Consultas de Productos' ? 'selected' : '' ?>>Consultas de Productos</option>
                                     <option value="Soporte Técnico" <?= old('motivoConsulta') == 'Soporte Técnico' ? 'selected' : '' ?>>Soporte Técnico</option>
                                     <option value="Problemas de Pago" <?= old('motivoConsulta') == 'Problemas de Pago' ? 'selected' : '' ?>>Problemas de Pago</option>
                                     <option value="Otras Razones" <?= old('motivoConsulta') == 'Otras Razones' ? 'selected' : '' ?>>Otras Razones</option>
-=======
-                                <select id="motivoConsulta1" class="form-contacto-input">
-                                    <option>Problemas con Pedido</option>
-                                    <option>Consultas de Productos</option>
-                                    <option>Soporte Técnico</option>
-                                    <option>Problemas de Pago</option>
-                                    <option>Otras Razones</option>
->>>>>>> d450f2ff4633fc1e4efbbd2c34226a82dce7c66c
                                 </select>
                             </div>
 
                             <div class="mb-3">
                                 <label class="form-label" for="comentarioAdicional1">Comentario Adicional</label>
-<<<<<<< HEAD
                                 <textarea id="comentarioAdicional1" name="comentarioAdicional" class="form-contacto-input" rows="4" placeholder="Detalle su problema aquí"><?= old('comentarioAdicional') ?></textarea>
-=======
-                                <textarea id="comentarioAdicional1" class="form-contacto-input" rows="4" placeholder="Detalle su problema aquí"></textarea>
->>>>>>> d450f2ff4633fc1e4efbbd2c34226a82dce7c66c
                             </div>
 
                             <button type="submit" class="btn-enviar">Enviar</button>
@@ -124,55 +93,31 @@
                     </div>
 
                     <div class="collapse mt-4" id="consultaForm2">
-<<<<<<< HEAD
                         <form class="form-contacto" action="<?= base_url('InformacionDeContacto/send') ?>" method="post">
                             <div class="mb-3">
                                 <label class="form-label" for="nombreUsuario2">Nombre de Usuario</label>
                                 <input type="text" id="nombreUsuario2" name="nombreUsuario" class="form-contacto-input" placeholder="Ingresa tu nombre" value="<?= old('nombreUsuario') ?>">
-=======
-                        <form class="form-contacto">
-                            <div class="mb-3">
-                                <label class="form-label" for="nombreUsuario2">Nombre de Usuario</label>
-                                <input type="text" id="nombreUsuario2" class="form-contacto-input" placeholder="Ingresa tu nombre">
->>>>>>> d450f2ff4633fc1e4efbbd2c34226a82dce7c66c
                             </div>
 
                             <div class="mb-3">
                                 <label class="form-label" for="correoElectronico2">Correo Electrónico</label>
-<<<<<<< HEAD
                                 <input type="email" id="correoElectronico2" name="correoElectronico" class="form-contacto-input" placeholder="Ingresa tu correo electrónico" value="<?= old('correoElectronico') ?>">
-=======
-                                <input type="email" id="correoElectronico2" class="form-contacto-input" placeholder="Ingresa tu correo electrónico">
->>>>>>> d450f2ff4633fc1e4efbbd2c34226a82dce7c66c
                             </div>
 
                             <div class="mb-3">
                                 <label class="form-label" for="motivoConsulta2">Motivo</label>
-<<<<<<< HEAD
                                 <select id="motivoConsulta2" name="motivoConsulta" class="form-contacto-input">
                                     <option value="Problemas con Pedido" <?= old('motivoConsulta') == 'Problemas con Pedido' ? 'selected' : '' ?>>Problemas con Pedido</option>
                                     <option value="Consultas de Productos" <?= old('motivoConsulta') == 'Consultas de Productos' ? 'selected' : '' ?>>Consultas de Productos</option>
                                     <option value="Soporte Técnico" <?= old('motivoConsulta') == 'Soporte Técnico' ? 'selected' : '' ?>>Soporte Técnico</option>
                                     <option value="Problemas de Pago" <?= old('motivoConsulta') == 'Problemas de Pago' ? 'selected' : '' ?>>Problemas de Pago</option>
                                     <option value="Otras Razones" <?= old('motivoConsulta') == 'Otras Razones' ? 'selected' : '' ?>>Otras Razones</option>
-=======
-                                <select id="motivoConsulta2" class="form-contacto-input">
-                                    <option>Problemas con Pedido</option>
-                                    <option>Consultas de Productos</option>
-                                    <option>Soporte Técnico</option>
-                                    <option>Problemas de Pago</option>
-                                    <option>Otras Razones</option>
->>>>>>> d450f2ff4633fc1e4efbbd2c34226a82dce7c66c
                                 </select>
                             </div>
 
                             <div class="mb-3">
                                 <label class="form-label" for="comentarioAdicional2">Comentario Adicional</label>
-<<<<<<< HEAD
                                 <textarea id="comentarioAdicional2" name="comentarioAdicional" class="form-contacto-input" rows="4" placeholder="Detalle su problema aquí"><?= old('comentarioAdicional') ?></textarea>
-=======
-                                <textarea id="comentarioAdicional2" class="form-contacto-input" rows="4" placeholder="Detalle su problema aquí"></textarea>
->>>>>>> d450f2ff4633fc1e4efbbd2c34226a82dce7c66c
                             </div>
 
                             <button type="submit" class="btn-enviar">Enviar</button>
@@ -204,10 +149,4 @@
             collapse.toggle();
         });
     });
-<<<<<<< HEAD
 </script>
-=======
-</script>
-
-
->>>>>>> d450f2ff4633fc1e4efbbd2c34226a82dce7c66c
