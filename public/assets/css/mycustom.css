@@ -102,6 +102,11 @@
   object-fit: contain;
 }
 
+/* hacemos que los textos del carrusel tengan las lineas del mismo ancho */
+.carousel-item p {
+  text-align: justify;
+}
+
 /* estilo para las imagenes pequenas que van en 2x2 */
 .thumbnail-image {
   max-height: 120px;
