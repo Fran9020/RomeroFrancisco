@@ -25,7 +25,7 @@
                         <div class="col-md-6">
                             <h4>Tipos de Entrega</h4>
                             <p>
-                                ofrecemos opciones flexibles para la entrega de tus productos, incluyendo entrega a domicilio y recogida en sucursales cercanas. nuestro objetivo es garantizar que recibas tus pedidos de la forma mas conveniente para ti.
+                                Ofrecemos opciones flexibles para la entrega de tus productos, incluyendo entrega a domicilio y recogida en sucursales cercanas. nuestro objetivo es garantizar que recibas tus pedidos de la forma mas conveniente para ti.
                             </p>
                         </div>
                     </div>
@@ -43,7 +43,7 @@
                         <div class="col-md-6">
                             <h4>Formas de Envios</h4>
                             <p>
-                                trabajamos con las mejores empresas de logistica para ofrecer envios rapidos y seguros. puedes elegir entre opciones estandar o express, dependiendo de tus necesidades. ademas, contamos con envios internacionales para llevar nuestros productos a donde los necesites.
+                                Trabajamos con las mejores empresas de logistica para ofrecer envios rapidos y seguros. puedes elegir entre opciones estandar o express, dependiendo de tus necesidades. ademas, contamos con envios internacionales para llevar nuestros productos a donde los necesites.
                             </p>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                         <div class="col-md-6">
                             <h4>Formas de Pago</h4>
                             <p>
-                                aceptamos una amplia variedad de metodos de pago, como tarjetas de credito, debito, transferencias bancarias y billeteras electronicas. nuestro sistema de pago es seguro y esta disenado para proteger tus datos personales.
+                                Aceptamos una amplia variedad de metodos de pago, como tarjetas de credito, debito, transferencias bancarias y billeteras electronicas. nuestro sistema de pago es seguro y esta disenado para proteger tus datos personales.
                             </p>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                         <div class="col-md-6">
                             <h4>Politica de Devoluciones</h4>
                             <p>
-                                queremos que te sientas satisfecho con tus compras. por eso, ofrecemos una politica de devoluciones flexible, que te permite devolver o cambiar productos dentro de un plazo de 30 dias, siempre que cumplan con nuestras condiciones de devolucion.
+                                Queremos que te sientas satisfecho con tus compras. por eso, ofrecemos una politica de devoluciones flexible, que te permite devolver o cambiar productos dentro de un plazo de 30 dias, siempre que cumplan con nuestras condiciones de devolucion.
                             </p>
                         </div>
                     </div>
