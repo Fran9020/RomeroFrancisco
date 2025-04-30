@@ -46,7 +46,7 @@
                                                 <div class="ms-md-3 text-start mt-3 mt-lg-0">
                                                     <h4>Dark Souls</h4>
                                                     <h5 class="price-text">$29.99</h5>
-                                                    <p>dark souls es una serie de juegos de rol de accion creada por hidetaka miyazaki de fromsoftware y publicada por bandai namco entertainment.</p>
+                                                    <p>Dark Souls es una serie de juegos de rol de acción creada por Hidetaka Miyazaki de FromSoftware y publicada por Bandai Namco Entertainment.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -57,7 +57,7 @@
                                                 <div class="ms-md-3 text-start mt-3 mt-lg-0">
                                                     <h4>The Legend Of Zelda</h4>
                                                     <h5 class="price-text">$24.99</h5>
-                                                    <p>Videojuego de accion-aventura de 2017 de la serie the legend of zelda, desarrollado por la filial nintendo epd en colaboracion con monolith soft y publicado por nintendo para las consolas wii u y nintendo switch</p>
+                                                    <p>Videojuego de acción-aventura de 2017 de la serie The Legend of Zelda, desarrollado por la filial Nintendo EPD en colaboración con Monolith Soft y publicado por Nintendo para las consolas Wii U y Nintendo Switch.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -79,7 +79,7 @@
                                                 <div class="ms-md-3 text-start mt-3 mt-lg-0">
                                                     <h4>Crash Bandicoot 4: It's About Time</h4>
                                                     <h5 class="price-text">$23.99</h5>
-                                                    <p>Videojuego de plataformas desarrollado por toys for bob y publicado por activision en 2020. se lanzo originalmente para playstation 4 y xbox one, con lanzamientos para nintendo switch, playstation 5, xbox series x|s y windows en 2021.</p>
+                                                    <p>Videojuego de plataformas desarrollado por Toys for Bob y publicado por Activision en 2020. Se lanzó originalmente para PlayStation 4 y Xbox One, con lanzamientos para Nintendo Switch, PlayStation 5, Xbox Series X|S y Windows en 2021.</p>
                                                 </div>
                                             </div>
                                         </div>
