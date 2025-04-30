@@ -25,21 +25,50 @@
                 <!-- Ruleta de imágenes y miniaturas -->
                 <li class="mb-4">
                     <div class="row">
-                        <!-- Carrusel (Ruleta de imágenes) -->
+                        <!-- Carrusel (Ruleta de imágenes) con descripciones -->
                         <div class="col-md-8">
                             <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-                                <div class="carousel-inner text-center" style="height: 300px;"> <!-- Espacio más grande -->
+                                <div class="carousel-inner">
+                                    <!-- Elementos individuales del carrusel con descripciones -->
                                     <div class="carousel-item active">
-                                        <img src="http://localhost/RomeroFrancisco/assets/img/imagen1.jpg" class="d-block img-fluid" style="max-height: 300px; max-width: auto; object-fit: contain;" alt="Imagen 1">
+                                        <div class="d-flex align-items-center">
+                                            <img src="http://localhost/RomeroFrancisco/assets/img/imagen1.jpg" class="d-block img-fluid" style="max-height: 300px; object-fit: contain;" alt="Imagen 1">
+                                            <div class="ms-3 text-start">
+                                                <h4>Título 1</h4>
+                                                <h6 class="text-muted">Subtítulo 1</h6>
+                                                <p>Esta es una breve descripción sobre la imagen mostrada en el carrusel.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="http://localhost/RomeroFrancisco/assets/img/imagen2.jpg" class="d-block img-fluid" style="max-height: 300px; max-width: auto; object-fit: contain;" alt="Imagen 2">
+                                        <div class="d-flex align-items-center">
+                                            <img src="http://localhost/RomeroFrancisco/assets/img/imagen2.jpg" class="d-block img-fluid" style="max-height: 300px; object-fit: contain;" alt="Imagen 2">
+                                            <div class="ms-3 text-start">
+                                                <h4>Título 2</h4>
+                                                <h6 class="text-muted">Subtítulo 2</h6>
+                                                <p>Breve descripción que explica lo que aparece en esta imagen del carrusel.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="http://localhost/RomeroFrancisco/assets/img/imagen3.jpg" class="d-block img-fluid" style="max-height: 300px; max-width: auto; object-fit: contain;" alt="Imagen 3">
+                                        <div class="d-flex align-items-center">
+                                            <img src="http://localhost/RomeroFrancisco/assets/img/imagen3.jpg" class="d-block img-fluid" style="max-height: 300px; object-fit: contain;" alt="Imagen 3">
+                                            <div class="ms-3 text-start">
+                                                <h4>Título 3</h4>
+                                                <h6 class="text-muted">Subtítulo 3</h6>
+                                                <p>Texto breve que acompaña y describe el contenido de esta imagen.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="http://localhost/RomeroFrancisco/assets/img/imagen4.jpg" class="d-block img-fluid" style="max-height: 300px; max-width: auto; object-fit: contain;" alt="Imagen 4">
+                                        <div class="d-flex align-items-center">
+                                            <img src="http://localhost/RomeroFrancisco/assets/img/imagen4.jpg" class="d-block img-fluid" style="max-height: 300px; object-fit: contain;" alt="Imagen 4">
+                                            <div class="ms-3 text-start">
+                                                <h4>Título 4</h4>
+                                                <h6 class="text-muted">Subtítulo 4</h6>
+                                                <p>Descripción breve que acompaña a esta imagen en el carrusel.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <!-- Controles del carrusel -->
@@ -57,18 +86,18 @@
                         <div class="col-md-4 d-flex flex-column align-items-center justify-content-center">
                             <div class="row mb-2">
                                 <div class="col-6">
-                                    <img src="http://localhost/RomeroFrancisco/assets/img/imagen1.jpg" class="img-thumbnail" style="max-height: 120px; max-width: 120px; object-fit: contain;" alt="Miniatura 1">
+                                    <img src="http://localhost/RomeroFrancisco/assets/img/imagen1.jpg" class="img-thumbnail clickable-thumbnail" data-bs-target="#imageCarousel" data-bs-slide-to="0" style="max-height: 120px; max-width: 120px; object-fit: contain;" alt="Miniatura 1">
                                 </div>
                                 <div class="col-6">
-                                    <img src="http://localhost/RomeroFrancisco/assets/img/imagen2.jpg" class="img-thumbnail" style="max-height: 120px; max-width: 120px; object-fit: contain;" alt="Miniatura 2">
+                                    <img src="http://localhost/RomeroFrancisco/assets/img/imagen2.jpg" class="img-thumbnail clickable-thumbnail" data-bs-target="#imageCarousel" data-bs-slide-to="1" style="max-height: 120px; max-width: 120px; object-fit: contain;" alt="Miniatura 2">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-6">
-                                    <img src="http://localhost/RomeroFrancisco/assets/img/imagen3.jpg" class="img-thumbnail" style="max-height: 120px; max-width: 120px; object-fit: contain;" alt="Miniatura 3">
+                                    <img src="http://localhost/RomeroFrancisco/assets/img/imagen3.jpg" class="img-thumbnail clickable-thumbnail" data-bs-target="#imageCarousel" data-bs-slide-to="2" style="max-height: 120px; max-width: 120px; object-fit: contain;" alt="Miniatura 3">
                                 </div>
                                 <div class="col-6">
-                                    <img src="http://localhost/RomeroFrancisco/assets/img/imagen4.jpg" class="img-thumbnail" style="max-height: 120px; max-width: 120px; object-fit: contain;" alt="Miniatura 4">
+                                    <img src="http://localhost/RomeroFrancisco/assets/img/imagen4.jpg" class="img-thumbnail clickable-thumbnail" data-bs-target="#imageCarousel" data-bs-slide-to="3" style="max-height: 120px; max-width: 120px; object-fit: contain;" alt="Miniatura 4">
                                 </div>
                             </div>
                         </div>
@@ -91,7 +120,6 @@
 
 <!-- Scripts de Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
 
 
 
