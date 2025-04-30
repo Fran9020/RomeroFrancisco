@@ -94,7 +94,10 @@
   position: relative;
   z-index: 2;
   max-height: 140px;
+<<<<<<< HEAD
   max-width: 80%; /* Añadido desde el estilo inline */
+=======
+>>>>>>> d450f2ff4633fc1e4efbbd2c34226a82dce7c66c
   object-fit: contain;
 }
 
@@ -114,8 +117,13 @@
 /* Estilos para las imágenes de las secciones (Ofertas, Mejores calificado, Clásicos Atemporales) */
 .section-image {
   max-height: 150px;
+<<<<<<< HEAD
   max-width: 100%;
   object-fit: contain;
+=======
+  width: auto;
+  object-fit: cover;
+>>>>>>> d450f2ff4633fc1e4efbbd2c34226a82dce7c66c
 }
 
 /* Estilos para los títulos de las secciones (h6) */
@@ -286,6 +294,10 @@
   overflow-x: hidden;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d450f2ff4633fc1e4efbbd2c34226a82dce7c66c
 /* Subtítulos centrados */
 .terminosyusos-subtitulo {
   text-align: center;
@@ -299,6 +311,7 @@ html, body {
 /* Garantizamos box-sizing correcto en todos los elementos */
 *, *::before, *::after {
   box-sizing: border-box;
+<<<<<<< HEAD
 }
 
 /* Ajustes responsivos para las secciones de inicio.php (Ofertas, Mejores calificado, Clásicos Atemporales) */
@@ -320,4 +333,6 @@ html, body {
     max-width: 140px;
     margin: 0 auto;
   }
+=======
+>>>>>>> d450f2ff4633fc1e4efbbd2c34226a82dce7c66c
 }

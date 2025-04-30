@@ -7,17 +7,24 @@
         <div class="row justify-content-center">
             <div class="col-md-8 comercializacion-caja">
 
+<<<<<<< HEAD
                 <div class="mb-4">
                     <div class="row align-items-center flex-column-reverse flex-md-row">
                         <div class="col-md-6 text-center">
                             <img src="http://localhost/RomeroFrancisco/public/assets/img/entregas.png" class="img-fluid rounded" alt="Tipos de entrega">
                         </div>
+=======
+                <!-- Tipos de Entrega -->
+                <div class="mb-4">
+                    <div class="row align-items-center">
+>>>>>>> d450f2ff4633fc1e4efbbd2c34226a82dce7c66c
                         <div class="col-md-6">
                             <h4>Tipos de Entrega</h4>
                             <p>
                                 Ofrecemos opciones flexibles para la entrega de tus productos, incluyendo entrega a domicilio y recogida en sucursales cercanas. Nuestro objetivo es garantizar que recibas tus pedidos de la forma más conveniente para ti.
                             </p>
                         </div>
+<<<<<<< HEAD
                     </div>
                 </div>
 
@@ -25,6 +32,19 @@
                     <div class="row align-items-center flex-column-reverse flex-md-row">
                         <div class="col-md-6 text-center">
                             <img src="http://localhost/RomeroFrancisco/public/assets/img/Envia_Map_Loop.png" class="img-fluid rounded envios-image" alt="Formas de envíos">
+=======
+                        <div class="col-md-6 text-center">
+                            <img src="http://localhost/RomeroFrancisco/public/assets/img/entregas.png" class="img-fluid rounded" alt="Tipos de entrega">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formas de Envíos -->
+                <div class="mb-4">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-center">
+                            <img src="http://localhost/RomeroFrancisco/public/assets/img/Envia_Map_Loop.png" class="img-fluid rounded" alt="Formas de envíos">
+>>>>>>> d450f2ff4633fc1e4efbbd2c34226a82dce7c66c
                         </div>
                         <div class="col-md-6">
                             <h4>Formas de Envíos</h4>
@@ -35,22 +55,40 @@
                     </div>
                 </div>
 
+<<<<<<< HEAD
                 <div class="mb-4">
                     <div class="row align-items-center flex-column-reverse flex-md-row">
                         <div class="col-md-6 text-center">
                             <img src="http://localhost/RomeroFrancisco/public/assets/img/pago.png" class="img-fluid rounded" alt="Formas de pago">
                         </div>
+=======
+                <!-- Formas de Pago -->
+                <div class="mb-4">
+                    <div class="row align-items-center">
+>>>>>>> d450f2ff4633fc1e4efbbd2c34226a82dce7c66c
                         <div class="col-md-6">
                             <h4>Formas de Pago</h4>
                             <p>
                                 Aceptamos una amplia variedad de métodos de pago, como tarjetas de crédito, débito, transferencias bancarias y billeteras electrónicas. Nuestro sistema de pago es seguro y está diseñado para proteger tus datos personales.
                             </p>
                         </div>
+<<<<<<< HEAD
                     </div>
                 </div>
 
                 <div class="mb-4">
                     <div class="row align-items-center flex-column-reverse flex-md-row">
+=======
+                        <div class="col-md-6 text-center">
+                            <img src="http://localhost/RomeroFrancisco/public/assets/img/pago.png" class="img-fluid rounded" alt="Formas de pago">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Política de Devoluciones -->
+                <div class="mb-4">
+                    <div class="row align-items-center">
+>>>>>>> d450f2ff4633fc1e4efbbd2c34226a82dce7c66c
                         <div class="col-md-6 text-center">
                             <img src="http://localhost/RomeroFrancisco/public/assets/img/Devolucion.png" class="img-fluid rounded" alt="Política de devoluciones">
                         </div>
@@ -68,4 +106,13 @@
     </div>
 </section>
 
+<<<<<<< HEAD
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+=======
+<!-- Scripts de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+>>>>>>> d450f2ff4633fc1e4efbbd2c34226a82dce7c66c
