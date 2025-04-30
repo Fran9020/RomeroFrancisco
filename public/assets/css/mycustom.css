@@ -1,0 +1,355 @@
+/* colores que usamos en toda la pagina */
+:root {
+  --azul-marino: #1B263B;    /* color azul oscuro para fondos */
+  --gris-claro: #D3D3D3;     /* color gris clarito para el menu y recuadros */
+  --negro: #000000;          /* color negro para las letras */
+  --rojo-carmesi: #D00000;   /* color rojo para cuando pasas el mouse por los links */
+  --azul-claro: #415A77;     /* color azul clarito para el menu y pie de pagina */
+  --gris-contenedor: #B0B0B0; /* color gris para algunos contenedores */
+}
+
+/* fondo azul oscuro para la seccion principal */
+.main-section {
+  background-color: var(--azul-marino);
+  margin: 0;
+  padding: 50px 0;
+}
+
+/* caja blanca para el contenido principal */
+#content-box {
+  background-color: white;
+  color: var(--negro);
+}
+
+/* hacemos que los textos dentro de la caja sean negros para que se lean bien */
+#content-box h3,
+#content-box h4,
+#content-box h5,
+#content-box h6,
+#content-box p {
+  color: var(--negro);
+}
+
+/* estilo para el menu de arriba */
+.custom-nav {
+  background-color: var(--azul-claro);
+  color: var(--negro);
+}
+
+/* estilo para la parte de abajo de la pagina */
+.custom-footer {
+  background-color: var(--azul-claro);
+  color: var(--negro);
+}
+
+/* los links del pie de pagina son negros */
+.custom-footer a {
+  color: var(--negro) !important;
+}
+
+/* efecto rojo cuando pasas el mouse por los links del pie de pagina */
+.custom-footer a:hover {
+  color: var(--rojo-carmesi) !important;
+}
+
+/* los links y textos del menu de arriba son negros */
+.custom-nav a,
+.custom-nav .nav-link,
+.custom-nav .navbar-brand {
+  color: var(--negro) !important;
+}
+
+/* efecto azul oscuro cuando pasas el mouse por los links del menu */
+.custom-nav a:hover,
+.custom-nav .nav-link:hover {
+  color: var(--azul-marino) !important;
+}
+
+/* estilos para la seccion del titulo */
+.title-section {
+  position: relative;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: var(--azul-marino);
+}
+
+/* estilo para el video de fondo en la seccion del titulo */
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* estilo para la imagen del logo en la seccion del titulo */
+.title-image {
+  position: relative;
+  z-index: 2;
+  max-height: 140px;
+  max-width: 80%;
+  object-fit: contain;
+}
+
+/* estilo para las imagenes grandes del carrusel */
+.carousel-image {
+  max-height: 300px;
+  object-fit: contain;
+}
+
+/* estilo para las imagenes pequenas que van en 2x2 */
+.thumbnail-image {
+  max-height: 120px;
+  max-width: 120px;
+  object-fit: contain;
+}
+
+/* estilo para las imagenes de las secciones como ofertas o clasicos */
+.section-image {
+  max-height: 150px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* estilo para los titulos de las secciones */
+.section-title {
+  font-size: 14px;
+}
+
+/* estilo para los precios o descripciones de las secciones */
+.section-price {
+  font-size: 12px;
+}
+
+/* estilo para la imagen del logo en el menu de arriba */
+.nav-logo {
+  width: 50px;
+  height: auto;
+}
+
+/* color verde para los precios */
+.price-text {
+  color: rgb(61, 193, 61) !important;
+  font-weight: bold;
+}
+
+/* --- estilos para la pagina quienes somos --- */
+
+/* caja blanca donde va el texto de quienes somos */
+.content-box-quienes {
+  background-color: #FFFFFF;
+  color: #212529;
+  margin-top: -50px;
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+}
+
+/* estilo para los parrafos de texto en quienes somos */
+.text-quienes {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #212529;
+}
+
+/* estilo para las tarjetas de los miembros */
+.custom-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  color: #000000;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+/* estilo solo para las tarjetas de quienes somos */
+.card-quienes {
+  height: 250px;
+}
+
+/* contenedor para las imagenes de perfil en las tarjetas */
+.profile-image-container {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+/* estilo para las imagenes dentro de las tarjetas */
+.card-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* estilo para el cuerpo de las tarjetas */
+.card-body-custom {
+  padding: 1rem;
+  text-align: center;
+}
+
+/* estilo para el titulo dentro de las tarjetas */
+.card-title-custom {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+/* --- estilos para la pagina informacion de contacto --- */
+
+/* estilo para los datos de contacto */
+.contacto-dato {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+}
+
+/* estilo para el boton que muestra el formulario */
+.btn-consulta {
+  background-color: hsl(242, 79%, 56%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 70%;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* ajustes para el boton en pantallas pequenas */
+@media (max-width: 575.98px) {
+  .btn-consulta {
+    width: 90%;
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
+/* efecto cuando pasas el mouse por el boton */
+.btn-consulta:hover {
+  background-color: var(--azul-marino);
+  color: #FFFFFF;
+}
+
+/* estilo para el formulario de contacto */
+.form-contacto {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* estilo para los campos del formulario */
+.form-contacto-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.375rem;
+}
+
+/* estilo para el boton de enviar del formulario */
+.btn-enviar {
+  background-color: rgb(61, 193, 61);
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* efecto cuando pasas el mouse por el boton de enviar */
+.btn-enviar:hover {
+  background-color: rgb(44, 165, 44);
+}
+
+/* --- estilos para la pagina comercializacion --- */
+
+/* fondo azul oscuro para la seccion de comercializacion */
+.comercializacion-fondo {
+  background-color: var(--azul-marino);
+  margin: 0;
+  padding: 50px 0;
+}
+
+/* caja blanca para el contenido de comercializacion */
+.comercializacion-caja {
+  background-color: white;
+  color: var(--negro);
+  padding: 1.5rem;
+  margin-top: -50px;
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+}
+
+/* --- estilos para la pagina terminos y usos --- */
+
+/* caja blanca para el contenido de terminos y usos */
+.terminosyusos-caja {
+  background-color: white;
+  color: var(--negro);
+  padding: 1.5rem;
+  margin-top: -30px;
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+}
+
+/* fondo azul oscuro para la seccion de terminos y usos */
+.terminosyusos-fondo {
+  background-color: var(--azul-marino);
+  margin: 0;
+  padding: 30px 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* subtitulos centrados en terminos y usos */
+.terminosyusos-subtitulo {
+  text-align: center;
+}
+
+/* ajuste para evitar que la pagina se desborde */
+html, body {
+  overflow-x: hidden;
+}
+
+/* hacemos que todos los elementos usen el mismo sistema de medidas */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* ajustes para las imagenes de las secciones como ofertas o clasicos */
+.section-image {
+  max-height: 150px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* ajustes para las imagenes en pantallas medianas */
+@media (max-width: 767.98px) {
+  .section-image {
+    max-width: 120px;
+    margin: 0 auto;
+  }
+}
+
+/* ajustes para las imagenes en pantallas un poco mas grandes */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .section-image {
+    max-width: 140px;
+    margin: 0 auto;
+  }
+}
+
+/* estilo para la imagen de envios */
+.envios-image {
+  max-width: 80%;
+  height: auto;
+}
