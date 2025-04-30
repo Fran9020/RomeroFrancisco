@@ -154,7 +154,7 @@
   font-family: 'Helvetica', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  text-align: left;
+  text-align: justify; /* para que las lineas del parrafo tengan el mismo ancho */
   color: #212529;
 }
 
@@ -209,7 +209,7 @@
   font-size: 16px;
   line-height: 1.5;
   color: #212529;
-  text-align: left;
+  text-align: justify; /* para que las lineas del parrafo tengan el mismo ancho */
 }
 
 /* estilo para el boton que muestra el formulario */
@@ -289,6 +289,11 @@
   border-radius: 0.375rem;
 }
 
+/* hacemos que los parrafos dentro de la caja de comercializacion tengan las lineas del mismo ancho */
+.comercializacion-caja p {
+  text-align: justify;
+}
+
 /* --- estilos para la pagina terminos y usos --- */
 
 /* caja blanca para el contenido de terminos y usos */
@@ -299,6 +304,11 @@
   margin-top: -30px;
   border: 1px solid #dee2e6;
   border-radius: 0.375rem;
+}
+
+/* hacemos que los parrafos dentro de la caja de terminos y usos tengan las lineas del mismo ancho */
+.terminosyusos-caja p {
+  text-align: justify;
 }
 
 /* fondo azul oscuro para la seccion de terminos y usos */
