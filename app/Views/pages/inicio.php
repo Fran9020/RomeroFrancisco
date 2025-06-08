@@ -33,7 +33,7 @@
                             <!-- columna para el carrusel, ocupa mas espacio -->
                             <div class="col-md-8 mb-3 mb-md-0">
                                 <!-- carrusel que cambia las imagenes -->
-                                <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                                <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
                                     <!-- contenedor de las imagenes del carrusel -->
                                     <div class="carousel-inner">
                                         <!-- primer juego del carrusel, esta activo por defecto -->
@@ -102,19 +102,27 @@
                                 <div class="row w-100 flex-row flex-md-column flex-lg-row">
                                     <!-- miniatura del primer juego -->
                                     <div class="col-3 col-md-12 col-lg-6 mb-2">
-                                        <img src="public/assets/img/imagen1.jpg" class="img-thumbnail clickable-thumbnail thumbnail-image img-fluid" data-bs-target="#imageCarousel" data-bs-slide-to="0" alt="Miniatura 1">
+                                        <div class="thumbnail-card">
+                                            <img src="public/assets/img/imagen1.jpg" class="img-thumbnail clickable-thumbnail thumbnail-image img-fluid" data-bs-target="#imageCarousel" data-bs-slide-to="0" alt="Miniatura 1">
+                                        </div>
                                     </div>
                                     <!-- miniatura del segundo juego -->
                                     <div class="col-3 col-md-12 col-lg-6 mb-2">
-                                        <img src="public/assets/img/imagen2.jpg" class="img-thumbnail clickable-thumbnail thumbnail-image img-fluid" data-bs-target="#imageCarousel" data-bs-slide-to="1" alt="Miniatura 2">
+                                        <div class="thumbnail-card">
+                                            <img src="public/assets/img/imagen2.jpg" class="img-thumbnail clickable-thumbnail thumbnail-image img-fluid" data-bs-target="#imageCarousel" data-bs-slide-to="1" alt="Miniatura 2">
+                                        </div>
                                     </div>
                                     <!-- miniatura del tercer juego -->
                                     <div class="col-3 col-md-12 col-lg-6 mb-2">
-                                        <img src="public/assets/img/imagen3.jpg" class="img-thumbnail clickable-thumbnail thumbnail-image img-fluid" data-bs-target="#imageCarousel" data-bs-slide-to="2" alt="Miniatura 3">
+                                        <div class="thumbnail-card">
+                                            <img src="public/assets/img/imagen3.jpg" class="img-thumbnail clickable-thumbnail thumbnail-image img-fluid" data-bs-target="#imageCarousel" data-bs-slide-to="2" alt="Miniatura 3">
+                                        </div>
                                     </div>
                                     <!-- miniatura del cuarto juego -->
                                     <div class="col-3 col-md-12 col-lg-6 mb-2">
-                                        <img src="public/assets/img/imagen4.jpg" class="img-thumbnail clickable-thumbnail thumbnail-image img-fluid" data-bs-target="#imageCarousel" data-bs-slide-to="3" alt="Miniatura 4">
+                                        <div class="thumbnail-card">
+                                            <img src="public/assets/img/imagen4.jpg" class="img-thumbnail clickable-thumbnail thumbnail-image img-fluid" data-bs-target="#imageCarousel" data-bs-slide-to="3" alt="Miniatura 4">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -126,21 +134,18 @@
                         <h3 class="h5">Ofertas</h3>
                         <!-- contenedor para los juegos en oferta -->
                         <div class="d-flex flex-wrap">
-                            <!-- primer juego en oferta -->
-                            <div class="text-center mb-3" style="width: 33.33%;">
-                                <img src="public/assets/img/imagen1.jpg" class="img-fluid mb-2 section-image" alt="Oferta 1" style="max-height: 150px;">
+                            <div class="game-card">
+                                <img src="public/assets/img/imagen1.jpg" class="img-fluid mb-2 section-image" alt="Oferta 1">
                                 <h6 class="mt-1 section-title">Dark Souls</h6>
                                 <p class="section-price price-text">$29.99</p>
                             </div>
-                            <!-- segundo juego en oferta -->
-                            <div class="text-center mb-3" style="width: 33.33%;">
-                                <img src="public/assets/img/spidermnan.jpg" class="img-fluid mb-2 section-image" alt="Oferta 2" style="max-height: 150px;">
+                            <div class="game-card">
+                                <img src="public/assets/img/spidermnan.jpg" class="img-fluid mb-2 section-image" alt="Oferta 2">
                                 <h6 class="mt-1 section-title">Spider-man</h6>
                                 <p class="section-price price-text">$29.99</p>
                             </div>
-                            <!-- tercer juego en oferta -->
-                            <div class="text-center mb-3" style="width: 33.33%;">
-                                <img src="public/assets/img/No-More-Heroes.jpg" class="img-fluid mb-2 section-image" alt="Oferta 3" style="max-height: 150px;">
+                            <div class="game-card">
+                                <img src="public/assets/img/No-More-Heroes.jpg" class="img-fluid mb-2 section-image" alt="Oferta 3">
                                 <h6 class="mt-1 section-title">No More Heroes</h6>
                                 <p class="section-price price-text">$35.99</p>
                             </div>
@@ -153,21 +158,18 @@
                         <h3 class="h5">Mejores calificado</h3>
                         <!-- contenedor para los juegos mejor calificados -->
                         <div class="d-flex flex-wrap">
-                            <!-- primer juego mejor calificado -->
-                            <div class="text-center mb-3" style="width: 33.33%;">
-                                <img src="public/assets/img/monsterhunter.jpg" class="img-fluid mb-2 section-image" alt="Mejor Calificado 1" style="max-height: 150px;">
+                            <div class="game-card">
+                                <img src="public/assets/img/monsterhunter.jpg" class="img-fluid mb-2 section-image" alt="Mejor Calificado 1">
                                 <h6 class="mt-1 section-title">Monster Hunter</h6>
                                 <p class="section-price price-text">$29.99</p>
                             </div>
-                            <!-- segundo juego mejor calificado -->
-                            <div class="text-center mb-3" style="width: 33.33%;">
-                                <img src="public/assets/img/mario.jpg" class="img-fluid mb-2 section-image" alt="Mejor Calificado 2" style="max-height: 150px;">
+                            <div class="game-card">
+                                <img src="public/assets/img/mario.jpg" class="img-fluid mb-2 section-image" alt="Mejor Calificado 2">
                                 <h6 class="mt-1 section-title">Mario Kart 8</h6>
                                 <p class="section-price price-text">$24.99</p>
                             </div>
-                            <!-- tercer juego mejor calificado -->
-                            <div class="text-center mb-3" style="width: 33.33%;">
-                                <img src="public/assets/img/imagen2.jpg" class="img-fluid mb-2 section-image" alt="Mejor Calificado 3" style="max-height: 150px;">
+                            <div class="game-card">
+                                <img src="public/assets/img/imagen2.jpg" class="img-fluid mb-2 section-image" alt="Mejor Calificado 3">
                                 <h6 class="mt-1 section-title">The legend of Zelda</h6>
                                 <p class="section-price price-text">$34.99</p>
                             </div>
@@ -180,21 +182,18 @@
                         <h3 class="h5">Clásicos Atemporales</h3>
                         <!-- contenedor para los juegos clasicos -->
                         <div class="d-flex flex-wrap">
-                            <!-- primer juego clasico -->
-                            <div class="text-center mb-3" style="width: 33.33%;">
-                                <img src="public/assets/img/black.jpg" class="img-fluid mb-2 section-image" alt="Clásico 1" style="max-height: 150px;">
+                            <div class="game-card">
+                                <img src="public/assets/img/black.jpg" class="img-fluid mb-2 section-image" alt="Clásico 1">
                                 <h6 class="mt-1 section-title">Black</h6>
                                 <p class="section-price price-text">$19.99</p>
                             </div>
-                            <!-- segundo juego clasico -->
-                            <div class="text-center mb-3" style="width: 33.33%;">
-                                <img src="public/assets/img/godofwar.jpg" class="img-fluid mb-2 section-image" alt="Clásico 2" style="max-height: 150px;">
+                            <div class="game-card">
+                                <img src="public/assets/img/godofwar.jpg" class="img-fluid mb-2 section-image" alt="Clásico 2">
                                 <h6 class="mt-1 section-title">God Of War</h6>
                                 <p class="section-price price-text">$39.99</p>
                             </div>
-                            <!-- tercer juego clasico -->
-                            <div class="text-center mb-3" style="width: 33.33%;">
-                                <img src="public/assets/img/Doom-64.jpg" class="img-fluid mb-2 section-image" alt="Clásico 3" style="max-height: 150px;">
+                            <div class="game-card">
+                                <img src="public/assets/img/Doom-64.jpg" class="img-fluid mb-2 section-image" alt="Clásico 3">
                                 <h6 class="mt-1 section-title">Doom 64</h6>
                                 <p class="section-price price-text">$29.99</p>
                             </div>

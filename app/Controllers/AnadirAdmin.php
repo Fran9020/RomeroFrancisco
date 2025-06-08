@@ -1,0 +1,88 @@
+<?php
+
+namespace App\Controllers;
+
+use CodeIgniter\Controller;
+use App\Models\UsuarioModel;
+
+class AnadirAdmin extends Controller
+{
+    protected $helpers = ['form'];
+    protected $usuarioModel;
+
+    public function __construct()
+    {
+        $this->usuarioModel = new UsuarioModel();
+    }
+
+    public function index()
+    {
+        return view('templates/layout', [
+            'title' => 'Añadir Administrador',
+            'content' => view('pages/anadir_admin')
+        ]);
+    }
+
+    public function enviar()
+    {
+        try {
+            // Obtener y validar el correo
+            $email = $this->request->getPost('correo');
+
+            $rules = [
+                'correo' => [
+                    'label' => 'Correo Electrónico',
+                    'rules' => 'required|valid_email|is_unique[Usuarios.email]',
+                    'errors' => [
+                        'required' => 'El campo {field} es obligatorio.',
+                        'valid_email' => 'Por favor, ingresa un {field} válido.',
+                        'is_unique' => 'Este {field} ya está registrado.'
+                    ]
+                ]
+            ];
+
+            if (!$this->validate($rules)) {
+                session()->setFlashdata('error', $this->validator->listErrors());
+                return redirect()->to('/anadir_admin');
+            }
+
+            // Verificar si el correo ya existe
+            if ($this->usuarioModel->where('email', $email)->first()) {
+                session()->setFlashdata('error', 'El correo ya está registrado.');
+                return redirect()->to('/anadir_admin');
+            }
+
+            // Generar una contraseña temporal aleatoria (8 caracteres)
+            $tempPassword = bin2hex(random_bytes(4)); // 8 caracteres hexadecimales (ej. a1b2c3d4)
+
+            // Datos a guardar (solo los campos necesarios)
+            $data = [
+                'id_rol' => 1,
+                'email' => $email,
+                'contrasena' => password_hash($tempPassword, PASSWORD_DEFAULT),
+                'primer_login' => 1,
+                'activo' => 1,
+            ];
+
+            // Desactivar temporalmente la validación del modelo para este insert
+            $this->usuarioModel->skipValidation(true);
+            if ($this->usuarioModel->insert($data)) {
+                $insertedId = $this->usuarioModel->insertID();
+                session()->setFlashdata('success', "Administrador añadido exitosamente. Contraseña temporal: <strong>$tempPassword</strong>. ID: $insertedId. Copia la contraseña y compártela con el administrador.");
+                return redirect()->to('/ver_usuarios'); // Usamos /ver-usuarios para consistencia
+            } else {
+                $errors = $this->usuarioModel->errors();
+                session()->setFlashdata('error', 'Error al guardar el administrador: ' . json_encode($errors));
+                log_message('error', 'Fallo al guardar usuario: ' . json_encode($errors));
+                return redirect()->to('/anadir_admin');
+            }
+        } catch (\Exception $e) {
+            log_message('error', 'Error en AnadirAdmin::enviar: ' . $e->getMessage());
+            session()->setFlashdata('error', 'Error al procesar la solicitud: ' . $e->getMessage());
+            return redirect()->to('/anadir_admin');
+        } finally {
+            // Reactivar la validación del modelo después del insert
+            $this->usuarioModel->skipValidation(false);
+        }
+    }
+}

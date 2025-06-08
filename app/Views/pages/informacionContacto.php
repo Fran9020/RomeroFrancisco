@@ -1,7 +1,7 @@
 <!-- seccion para el logo de arriba -->
 <section class="title-section">
     <!-- imagen del logo que va en el centro -->
-    <img src="public/assets/img/informaciondecontacto.png" alt="Logo Game-Box" class="title-image">
+    <img src="<?= base_url('public/assets/img/informaciondecontacto.png') ?>" alt="Logo Game-Box" class="title-image">
 </section>
 
 <!-- seccion principal donde esta todo -->
@@ -59,8 +59,8 @@
 
                             <!-- campo para el correo -->
                             <div class="mb-3">
-                                <label class="form-label" for="correoElectronico1">Correo Electronico</label>
-                                <input type="email" id="correoElectronico1" name="correoElectronico" class="form-contacto-input" placeholder="Ingresa tu correo electronico" value="<?= old('correoElectronico') ?>">
+                                <label class="form-label" for="correoElectronico1">Correo Electrónico</label>
+                                <input type="email" id="correoElectronico1" name="correoElectronico" class="form-contacto-input" placeholder="Ingresa tu correo electrónico" value="<?= old('correoElectronico') ?>">
                             </div>
 
                             <!-- campo para elegir el motivo -->
@@ -69,7 +69,7 @@
                                 <select id="motivoConsulta1" name="motivoConsulta" class="form-contacto-input">
                                     <option value="Problemas con Pedido" <?= old('motivoConsulta') == 'Problemas con Pedido' ? 'selected' : '' ?>>Problemas con Pedido</option>
                                     <option value="Consultas de Productos" <?= old('motivoConsulta') == 'Consultas de Productos' ? 'selected' : '' ?>>Consultas de Productos</option>
-                                    <option value="Soporte Tecnico" <?= old('motivoConsulta') == 'Soporte Tecnico' ? 'selected' : '' ?>>Soporte Tecnico</option>
+                                    <option value="Soporte Tecnico" <?= old('motivoConsulta') == 'Soporte Tecnico' ? 'selected' : '' ?>>Soporte Técnico</option>
                                     <option value="Problemas de Pago" <?= old('motivoConsulta') == 'Problemas de Pago' ? 'selected' : '' ?>>Problemas de Pago</option>
                                     <option value="Otras Razones" <?= old('motivoConsulta') == 'Otras Razones' ? 'selected' : '' ?>>Otras Razones</option>
                                 </select>
@@ -78,7 +78,7 @@
                             <!-- campo para escribir un comentario -->
                             <div class="mb-3">
                                 <label class="form-label" for="comentarioAdicional1">Comentario Adicional</label>
-                                <textarea id="comentarioAdicional1" name="comentarioAdicional" class="form-contacto-input" rows="4" placeholder="Detalle su problema aqui"><?= old('comentarioAdicional') ?></textarea>
+                                <textarea id="comentarioAdicional1" name="comentarioAdicional" class="form-contacto-input" rows="4" placeholder="Detalla tu problema aquí"><?= old('comentarioAdicional') ?></textarea>
                             </div>
 
                             <!-- boton para enviar el formulario -->
@@ -115,8 +115,8 @@
 
                             <!-- campo para el correo -->
                             <div class="mb-3">
-                                <label class="form-label" for="correoElectronico2">Correo Electronico</label>
-                                <input type="email" id="correoElectronico2" name="correoElectronico" class="form-contacto-input" placeholder="Ingresa tu correo electronico" value="<?= old('correoElectronico') ?>">
+                                <label class="form-label" for="correoElectronico2">Correo Electrónico</label>
+                                <input type="email" id="correoElectronico2" name="correoElectronico" class="form-contacto-input" placeholder="Ingresa tu correo electrónico" value="<?= old('correoElectronico') ?>">
                             </div>
 
                             <!-- campo para elegir el motivo -->
@@ -125,7 +125,7 @@
                                 <select id="motivoConsulta2" name="motivoConsulta" class="form-contacto-input">
                                     <option value="Problemas con Pedido" <?= old('motivoConsulta') == 'Problemas con Pedido' ? 'selected' : '' ?>>Problemas con Pedido</option>
                                     <option value="Consultas de Productos" <?= old('motivoConsulta') == 'Consultas de Productos' ? 'selected' : '' ?>>Consultas de Productos</option>
-                                    <option value="Soporte Tecnico" <?= old('motivoConsulta') == 'Soporte Tecnico' ? 'selected' : '' ?>>Soporte Tecnico</option>
+                                    <option value="Soporte Tecnico" <?= old('motivoConsulta') == 'Soporte Tecnico' ? 'selected' : '' ?>>Soporte Técnico</option>
                                     <option value="Problemas de Pago" <?= old('motivoConsulta') == 'Problemas de Pago' ? 'selected' : '' ?>>Problemas de Pago</option>
                                     <option value="Otras Razones" <?= old('motivoConsulta') == 'Otras Razones' ? 'selected' : '' ?>>Otras Razones</option>
                                 </select>
@@ -134,7 +134,7 @@
                             <!-- campo para escribir un comentario -->
                             <div class="mb-3">
                                 <label class="form-label" for="comentarioAdicional2">Comentario Adicional</label>
-                                <textarea id="comentarioAdicional2" name="comentarioAdicional" class="form-contacto-input" rows="4" placeholder="Detalle su problema aqui"><?= old('comentarioAdicional') ?></textarea>
+                                <textarea id="comentarioAdicional2" name="comentarioAdicional" class="form-contacto-input" rows="4" placeholder="Detalla tu problema aquí"><?= old('comentarioAdicional') ?></textarea>
                             </div>
 
                             <!-- boton para enviar el formulario -->

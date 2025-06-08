@@ -3,7 +3,7 @@
     <!-- contenedor para centrar el contenido -->
     <div class="container text-center">
         <!-- texto que invita a seguirnos -->
-        <h5 class="mt-4 mb-3">siguenos y mantente informado:</h5>
+        <h5 class="mt-4 mb-3">Síguenos y mantente informado:</h5>
         <!-- imagenes de redes sociales con links -->
         <div class="my-3">
             <!-- link a twitter -->
@@ -24,6 +24,6 @@
             </a>
         </div>
         <!-- texto de derechos -->
-        <p class="mt-2">© 2025 game-box. todos los derechos reservados.</p>
+        <p class="mt-2">© 2025 Game-Box. todos los derechos reservados.</p>
     </div>
 </footer>
